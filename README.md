@@ -26,7 +26,8 @@ There are two ways. Pick the one that sounds like you.
 
 ### Way 1 — I just want to use it
 
-**Step 1.** Get the `Clipstack.dmg` file. Double-click it.
+**Step 1.** Download `Clipstack.dmg` from the
+[Releases page](https://github.com/mehedi891/clipstack/releases). Double-click it.
 
 **Step 2.** A window opens with the Clipstack icon and a folder called
 Applications. Drag the icon onto the folder.
@@ -63,7 +64,7 @@ Build it yourself. Nothing gets blocked this way.
 **Step 2.** Paste these lines, one at a time:
 
 ```sh
-git clone <your-repo-url> clipstack
+git clone https://github.com/mehedi891/clipstack.git
 cd clipstack
 ./install.sh
 ```
@@ -114,9 +115,31 @@ This one is worth doing. It's what makes clicking an item paste it right away.
 **What if I skip this?** Clipstack still works. Clicking an item copies it, and
 you press **⌘V** yourself. You just do one extra keypress.
 
+**Turned the switch on but it still doesn't paste?** This happens, and there is
+a button for it. Open Clipstack's **Settings**, and under **Paste** click
+**Reset Permission**. See [Problems](#macos-keeps-asking-for-permission-over-and-over).
+
 ---
 
 ## How to use it
+
+Press **⇧⌘V** to open the window. It has five tabs along the top.
+
+| Tab | Press | What's in it |
+|---|---|---|
+| **Clipboard** | ⌘1 | Everything you copied, newest first |
+| **Pinned** | ⌘2 | Only the items you pinned. Never deleted on their own. |
+| **Emoji** | ⌘3 | 964 emoji. Type to search by name. |
+| **Kaomoji** | ⌘4 | Text faces like `¯\_(ツ)_/¯` |
+| **Symbols** | ⌘5 | Arrows, currency, maths signs, and more |
+
+Click anything to paste it. Everything works without the internet.
+
+**To pin something**, hover over it in the Clipboard tab and click the pin. It
+moves to the Pinned tab and stays there for good. To unpin it, click the pin
+again — the item goes back to your normal history.
+
+### Keyboard shortcuts
 
 | Press this | To do this |
 |---|---|
@@ -129,11 +152,23 @@ you press **⌘V** yourself. You just do one extra keypress.
 You can also click the menu bar icon to open it. Right-click that icon for
 Settings and Quit.
 
-**About pinning.** Clipstack keeps your last 200 copies and deletes older ones to
-make room. But pinned items are never deleted. Pin anything you want to keep.
-You can change 200 to any number from 10 to 1000 in Settings.
+**About the limit.** Clipstack keeps your last 200 copies and deletes older ones
+to make room. Pinned items don't count and are never deleted. You can change 200
+to any number from 10 to 1000 in Settings.
 
-**Want a different shortcut?** Open Settings and pick your own.
+### Settings
+
+Right-click the Clipstack icon in your menu bar and click **Settings**.
+
+| Setting | What it does |
+|---|---|
+| **Save clipboard history** | The main on/off switch. Off means nothing new is saved. |
+| **Keep _N_ items** | How many copies to remember, from 10 to 1000. Pinned items don't count. |
+| **Open at login** | Start Clipstack automatically when you turn on your Mac. |
+| **Open the panel** | Click the box, then press the keys you want. At least one of ⌘ ⇧ ⌥ ⌃ is required. |
+| **Automatic paste** | Shows whether Clipstack is allowed to paste for you. |
+| **Reset Permission** | Clears macOS's saved permission so you can grant it again. Fixes the most common problem below. |
+| **Clear history** | Deletes everything, including pinned items. |
 
 ---
 
@@ -141,14 +176,29 @@ You can change 200 to any number from 10 to 1000 in Settings.
 
 ### macOS keeps asking for permission, over and over
 
-This is the most common problem. First, try this:
+You switch Clipstack on in System Settings, and it still says it has no
+permission. This is the most common problem.
+
+**Try this first.** It works no matter how you installed Clipstack:
+
+1. Right-click the Clipstack icon in your menu bar
+2. Click **Settings**
+3. Under **Paste**, click **Reset Permission**, then confirm
+4. System Settings opens on its own
+5. Click **+**, pick **Clipstack**, and turn the switch on
+
+Clipstack tells you how many saved permissions it cleared. **If it says more
+than one, that was your problem** — macOS was holding two records and checking
+the wrong one.
+
+**If you cloned the repo**, this script does the same thing and also checks the
+other causes:
 
 ```sh
 ./scripts/fix-permissions.sh
 ```
 
-The script checks for all four causes and fixes what it can. Here they are, in
-case you want to know what happened.
+Still stuck? Here are the four causes, and what each one looks like.
 
 #### Cause 1: You opened the app from the disk image
 
@@ -164,18 +214,9 @@ A disk image is like a CD. macOS can't save permissions for an app on a CD.
 This can happen after you move, rename, or rebuild the app. macOS shows you one
 record but checks a different one. So flipping the switch does nothing.
 
-**Fix, the easy way.** Clipstack can do this for you:
+**Fix:** Use **Settings → Paste → Reset Permission**, as described above.
 
-1. Right-click the Clipstack icon in your menu bar
-2. Click **Settings**
-3. Under **Paste**, click **Reset Permission**
-4. Confirm. System Settings opens on its own.
-5. Click **+**, pick Clipstack, and turn the switch on
-
-Clipstack tells you how many saved permissions it cleared. If it says more than
-one, that was your problem.
-
-**Fix, from the Terminal.** Same thing, if you prefer:
+Or from the Terminal, if you prefer:
 
 ```sh
 tccutil reset Accessibility com.efoli.Clipstack
@@ -214,8 +255,9 @@ Then open it again.
 
 ### ⇧⌘V doesn't do anything
 
-Another app is already using that shortcut. Open Settings and pick a different
-one. Settings warns you when a shortcut is already taken.
+Another app has already claimed that shortcut. Open **Settings** and pick a
+different one under **Open the panel**. Settings warns you when a shortcut is
+already taken.
 
 ### Nothing shows up in my history
 
