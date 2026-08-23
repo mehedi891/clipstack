@@ -1,0 +1,366 @@
+# Clipstack
+
+Clipstack remembers what you copy. Press **⇧⌘V** to see everything you copied
+before. Click one, and it gets pasted right where you were typing.
+
+<img src="Assets/icon-1024.png" width="128" alt="Clipstack icon">
+
+**What you get**
+
+- A list of what you copied — text, styled text, and pictures
+- Search your history
+- Pin the things you want to keep forever
+- Emoji, kaomoji, and symbols built in (964 emoji, all offline)
+- Lives in the menu bar. No Dock icon.
+- Works fully offline. Nothing you copy is ever sent anywhere.
+
+You need **macOS 14 or newer**.
+
+---
+
+## How to install
+
+There are two ways. Pick the one that sounds like you.
+
+---
+
+### Way 1 — I just want to use it
+
+**Step 1.** Get the `Clipstack.dmg` file. Double-click it.
+
+**Step 2.** A window opens with the Clipstack icon and a folder called
+Applications. Drag the icon onto the folder.
+
+**Step 3.** Open your Applications folder and find Clipstack.
+
+**Step 4.** This part matters. **Right-click** Clipstack and pick **Open**.
+Do not double-click it the first time.
+
+**Step 5.** A box appears asking if you're sure. Click **Open**.
+
+That's it. You only do steps 4 and 5 once. After that you can open it normally.
+
+> **Why the right-click?**
+> macOS blocks apps it hasn't seen before. Right-clicking and picking Open is
+> how you tell macOS you trust it. Double-clicking will just show an error.
+
+> **It says Clipstack is "damaged"?**
+> It isn't. macOS says that about apps it doesn't recognise. Open the Terminal
+> app, paste the line below, press Return, then try again:
+>
+> ```sh
+> xattr -dr com.apple.quarantine /Applications/Clipstack.app
+> ```
+
+---
+
+### Way 2 — I'm comfortable with the Terminal
+
+Build it yourself. Nothing gets blocked this way.
+
+**Step 1.** Open the Terminal app.
+
+**Step 2.** Paste these lines, one at a time:
+
+```sh
+git clone <your-repo-url> clipstack
+cd clipstack
+./install.sh
+```
+
+**Step 3.** Wait about a minute. The script does the rest and starts the app.
+
+Look for the clipboard icon in your menu bar at the top of the screen.
+
+**If it says `swift` was not found**, you need Apple's developer tools. Run this,
+then try again:
+
+```sh
+xcode-select --install
+```
+
+You do **not** need Xcode. The small Command Line Tools are enough.
+
+<details>
+<summary>Extra options</summary>
+
+```sh
+./install.sh --no-cert   # skip the signing certificate
+./install.sh --here      # run from ./build instead of Applications
+```
+</details>
+
+---
+
+## Two things to do after installing
+
+### 1. Turn on your history
+
+Press **⇧⌘V**. A small window opens. Click the **Turn on** button.
+
+Clipstack does not save anything until you do this.
+
+### 2. Let Clipstack paste for you
+
+This one is worth doing. It's what makes clicking an item paste it right away.
+
+1. Open **System Settings**
+2. Click **Privacy & Security**
+3. Click **Accessibility**
+4. Click the **+** button
+5. Pick **Clipstack** from your Applications folder
+6. Turn the switch **on**
+
+**What if I skip this?** Clipstack still works. Clicking an item copies it, and
+you press **⌘V** yourself. You just do one extra keypress.
+
+---
+
+## How to use it
+
+| Press this | To do this |
+|---|---|
+| **⇧⌘V** | Open or close the window |
+| **↑** and **↓** | Move up and down the list |
+| **⏎** (Return) | Paste the one you picked |
+| **⎋** (Escape) | Close the window |
+| **⌘1** to **⌘5** | Jump between the tabs |
+
+You can also click the menu bar icon to open it. Right-click that icon for
+Settings and Quit.
+
+**About pinning.** Clipstack keeps your last 200 copies and deletes older ones to
+make room. But pinned items are never deleted. Pin anything you want to keep.
+You can change 200 to any number from 10 to 1000 in Settings.
+
+**Want a different shortcut?** Open Settings and pick your own.
+
+---
+
+## Problems and how to fix them
+
+### macOS keeps asking for permission, over and over
+
+This is the most common problem. First, try this:
+
+```sh
+./scripts/fix-permissions.sh
+```
+
+The script checks for all four causes and fixes what it can. Here they are, in
+case you want to know what happened.
+
+#### Cause 1: You opened the app from the disk image
+
+If you double-clicked the `.dmg` file and started Clipstack from that window,
+this will happen every time.
+
+A disk image is like a CD. macOS can't save permissions for an app on a CD.
+
+**Fix:** Drag Clipstack into your Applications folder. Then open it from there.
+
+#### Cause 2: macOS has two records for the same app
+
+This can happen after you move, rename, or rebuild the app. macOS shows you one
+record but checks a different one. So flipping the switch does nothing.
+
+**Fix, the easy way.** Clipstack can do this for you:
+
+1. Right-click the Clipstack icon in your menu bar
+2. Click **Settings**
+3. Under **Paste**, click **Reset Permission**
+4. Confirm. System Settings opens on its own.
+5. Click **+**, pick Clipstack, and turn the switch on
+
+Clipstack tells you how many saved permissions it cleared. If it says more than
+one, that was your problem.
+
+**Fix, from the Terminal.** Same thing, if you prefer:
+
+```sh
+tccutil reset Accessibility com.efoli.Clipstack
+```
+
+#### Cause 3: The app has no signing certificate
+
+macOS ties permission to the app's **signature** — a kind of fingerprint. Without
+a certificate, the fingerprint changes every time you build. macOS then thinks
+it's a brand new app and forgets your permission.
+
+`install.sh` sets this up for you. If you skipped it, do it now:
+
+```sh
+./scripts/create-signing-cert.sh
+./scripts/build-app.sh
+tccutil reset Accessibility com.efoli.Clipstack
+```
+
+Then give permission one more time. It will stick from now on.
+
+This only helps on **your own** Mac. See [Sharing](#sharing-clipstack-with-others).
+
+#### Cause 4: macOS is running a hidden copy
+
+When you download an app, macOS sometimes runs it from a hidden temporary folder
+instead of where you put it. Clipstack tells you in the window when this happens.
+
+**Fix:**
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Clipstack.app
+```
+
+Then open it again.
+
+### ⇧⌘V doesn't do anything
+
+Another app is already using that shortcut. Open Settings and pick a different
+one. Settings warns you when a shortcut is already taken.
+
+### Nothing shows up in my history
+
+Clipstack starts switched off. Press **⇧⌘V** and click **Turn on**.
+
+Also note: if your password manager marks something as secret, Clipstack skips
+it on purpose. That is not a bug.
+
+### The window looks broken or won't open
+
+Run this to see what's wrong:
+
+```sh
+CLIPSTACK_DEBUG_PANEL=1 /Applications/Clipstack.app/Contents/MacOS/Clipstack
+```
+
+It prints messages in your Terminal that explain the problem.
+
+---
+
+## Sharing Clipstack with others
+
+Make an installer file:
+
+```sh
+./scripts/make-dmg.sh
+```
+
+You get `dist/Clipstack-<version>.dmg`. You can send that file to anyone.
+
+**But there's a catch.** macOS is careful about apps from makers it doesn't
+know. What your friend sees depends on how the app was signed:
+
+| How it's signed | What they have to do |
+|---|---|
+| Apple Developer ID, checked by Apple | Just double-click. Nothing else. |
+| Apple Developer ID only | Right-click → Open, once |
+| No certificate (the default here) | Right-click → Open, once. Sometimes also one Terminal command. |
+| They build it themselves | Nothing. It just works. |
+
+**Can a non-technical person use the default?** Yes, but not smoothly. They must
+right-click instead of double-click the first time, and if macOS calls the app
+"damaged" they need to paste one line into the Terminal. Some people will manage
+that. Others will give up, or think the app is broken.
+
+Way 1 in [How to install](#how-to-install) is written for exactly this, in plain
+steps you can copy into an email.
+
+**To send a `.dmg` that just works**, you need an
+[Apple Developer account](https://developer.apple.com/programs/). It costs 99 USD
+a year. A free certificate will not work here — macOS only trusts certificates
+that come from Apple.
+
+If you have one:
+
+```sh
+xcrun notarytool store-credentials clipstack \
+    --apple-id you@example.com --team-id TEAMID
+
+CODESIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" \
+NOTARY_PROFILE="clipstack" ./scripts/make-dmg.sh
+```
+
+The script sends the app to Apple, waits for their answer, and attaches the
+result to your file. Your friend can then open it even with no internet.
+
+---
+
+## How to uninstall
+
+```sh
+./scripts/uninstall.sh
+```
+
+It shows you what it will delete and asks before doing anything. Add `--yes` to
+skip the question.
+
+It deletes the app, your saved history, your pictures, and your settings.
+
+**One step you must do yourself.** macOS protects this list, so no script can
+touch it:
+
+> System Settings → Privacy & Security → Accessibility
+> Pick Clipstack, then click the **–** button.
+
+Clipstack puts nothing outside your home folder, and never starts at login unless
+you turn that on.
+
+---
+
+## Where your data is kept
+
+```
+~/Library/Application Support/Clipstack/
+  history.sqlite     your copied text
+  images/            your copied pictures
+```
+
+It sits on your own disk, in a plain file. Nothing is uploaded anywhere.
+
+Delete that folder to start fresh.
+
+---
+
+## For developers
+
+```sh
+./scripts/build-app.sh    # build build/Clipstack.app
+./scripts/run.sh          # build, then restart the app
+./scripts/test.sh         # run the tests
+```
+
+**Project layout.** `ClipstackCore` holds the logic and is unit tested.
+`Clipstack` is a thin AppKit and SwiftUI shell on top. They are separate because
+a test target cannot depend on an executable target.
+
+**Tests use swift-testing, not XCTest.** The Command Line Tools ship
+`Testing.framework` but no XCTest. Use `scripts/test.sh` — it passes the extra
+search paths that SwiftPM leaves out.
+
+**The app is not sandboxed.** The sandbox blocks apps from sending fake key
+presses to other apps, and that is exactly how auto-paste works.
+
+**`NSHostingView.sizingOptions` is `[]`**, and the panel's minimum and maximum
+size are locked. Otherwise SwiftUI pushes its preferred size onto the window, and
+a tall tab stretches the panel off the screen.
+
+### Rebuilding the emoji list and icon
+
+```sh
+python3 scripts/generate-emoji.py    # → Sources/ClipstackCore/Resources/emoji.json
+swift scripts/generate-icon.swift    # → build/Clipstack.iconset, Assets/icon-1024.png
+```
+
+The emoji list comes from Python's built-in Unicode data, so it needs no network
+and no extra packages. The trade-off: it only has emoji up to whatever Unicode
+version your Python ships with.
+
+The icon is drawn in code so it always matches the design tokens in
+`Sources/Clipstack/UI/Theme.swift`. The menu bar glyph is **not** drawn by us —
+it is Apple's `list.clipboard` symbol, because a shrunken logo looked like a
+padlock at that size.
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE). You may use, change, and share this freely.

@@ -1,0 +1,4869 @@
+{
+ "categories": [
+  {
+   "name": "Smileys",
+   "emoji": [
+    {
+     "char": "😀",
+     "name": "Grinning Face",
+     "keywords": "grinning face"
+    },
+    {
+     "char": "😁",
+     "name": "Grinning Face With Smiling Eyes",
+     "keywords": "grinning smiling eyes"
+    },
+    {
+     "char": "😂",
+     "name": "Face With Tears Of Joy",
+     "keywords": "tears of joy"
+    },
+    {
+     "char": "😃",
+     "name": "Smiling Face With Open Mouth",
+     "keywords": "smiling open mouth"
+    },
+    {
+     "char": "😄",
+     "name": "Smiling Face With Open Mouth And Smiling Eyes",
+     "keywords": "smiling open mouth and smiling eyes"
+    },
+    {
+     "char": "😅",
+     "name": "Smiling Face With Open Mouth And Cold Sweat",
+     "keywords": "smiling open mouth and cold sweat"
+    },
+    {
+     "char": "😆",
+     "name": "Smiling Face With Open Mouth And Tightly-Closed Eyes",
+     "keywords": "smiling open mouth and tightly closed eyes"
+    },
+    {
+     "char": "😇",
+     "name": "Smiling Face With Halo",
+     "keywords": "smiling halo"
+    },
+    {
+     "char": "😈",
+     "name": "Smiling Face With Horns",
+     "keywords": "smiling horns"
+    },
+    {
+     "char": "😉",
+     "name": "Winking Face",
+     "keywords": "winking face"
+    },
+    {
+     "char": "😊",
+     "name": "Smiling Face With Smiling Eyes",
+     "keywords": "smiling smiling eyes"
+    },
+    {
+     "char": "😋",
+     "name": "Face Savouring Delicious Food",
+     "keywords": "savouring delicious food"
+    },
+    {
+     "char": "😌",
+     "name": "Relieved Face",
+     "keywords": "relieved face"
+    },
+    {
+     "char": "😍",
+     "name": "Smiling Face With Heart-Shaped Eyes",
+     "keywords": "smiling heart shaped eyes"
+    },
+    {
+     "char": "😎",
+     "name": "Smiling Face With Sunglasses",
+     "keywords": "smiling sunglasses"
+    },
+    {
+     "char": "😏",
+     "name": "Smirking Face",
+     "keywords": "smirking face"
+    },
+    {
+     "char": "😐",
+     "name": "Neutral Face",
+     "keywords": "neutral face"
+    },
+    {
+     "char": "😑",
+     "name": "Expressionless Face",
+     "keywords": "expressionless face"
+    },
+    {
+     "char": "😒",
+     "name": "Unamused Face",
+     "keywords": "unamused face"
+    },
+    {
+     "char": "😓",
+     "name": "Face With Cold Sweat",
+     "keywords": "cold sweat"
+    },
+    {
+     "char": "😔",
+     "name": "Pensive Face",
+     "keywords": "pensive face"
+    },
+    {
+     "char": "😕",
+     "name": "Confused Face",
+     "keywords": "confused face"
+    },
+    {
+     "char": "😖",
+     "name": "Confounded Face",
+     "keywords": "confounded face"
+    },
+    {
+     "char": "😗",
+     "name": "Kissing Face",
+     "keywords": "kissing face"
+    },
+    {
+     "char": "😘",
+     "name": "Face Throwing A Kiss",
+     "keywords": "throwing a kiss"
+    },
+    {
+     "char": "😙",
+     "name": "Kissing Face With Smiling Eyes",
+     "keywords": "kissing smiling eyes"
+    },
+    {
+     "char": "😚",
+     "name": "Kissing Face With Closed Eyes",
+     "keywords": "kissing closed eyes"
+    },
+    {
+     "char": "😛",
+     "name": "Face With Stuck-Out Tongue",
+     "keywords": "stuck out tongue"
+    },
+    {
+     "char": "😜",
+     "name": "Face With Stuck-Out Tongue And Winking Eye",
+     "keywords": "stuck out tongue and winking eye"
+    },
+    {
+     "char": "😝",
+     "name": "Face With Stuck-Out Tongue And Tightly-Closed Eyes",
+     "keywords": "stuck out tongue and tightly closed eyes"
+    },
+    {
+     "char": "😞",
+     "name": "Disappointed Face",
+     "keywords": "disappointed face"
+    },
+    {
+     "char": "😟",
+     "name": "Worried Face",
+     "keywords": "worried face"
+    },
+    {
+     "char": "😠",
+     "name": "Angry Face",
+     "keywords": "angry face"
+    },
+    {
+     "char": "😡",
+     "name": "Pouting Face",
+     "keywords": "pouting face"
+    },
+    {
+     "char": "😢",
+     "name": "Crying Face",
+     "keywords": "crying face"
+    },
+    {
+     "char": "😣",
+     "name": "Persevering Face",
+     "keywords": "persevering face"
+    },
+    {
+     "char": "😤",
+     "name": "Face With Look Of Triumph",
+     "keywords": "look of triumph"
+    },
+    {
+     "char": "😥",
+     "name": "Disappointed But Relieved Face",
+     "keywords": "disappointed but relieved face"
+    },
+    {
+     "char": "😦",
+     "name": "Frowning Face With Open Mouth",
+     "keywords": "frowning open mouth"
+    },
+    {
+     "char": "😧",
+     "name": "Anguished Face",
+     "keywords": "anguished face"
+    },
+    {
+     "char": "😨",
+     "name": "Fearful Face",
+     "keywords": "fearful face"
+    },
+    {
+     "char": "😩",
+     "name": "Weary Face",
+     "keywords": "weary face"
+    },
+    {
+     "char": "😪",
+     "name": "Sleepy Face",
+     "keywords": "sleepy face"
+    },
+    {
+     "char": "😫",
+     "name": "Tired Face",
+     "keywords": "tired face"
+    },
+    {
+     "char": "😬",
+     "name": "Grimacing Face",
+     "keywords": "grimacing face"
+    },
+    {
+     "char": "😭",
+     "name": "Loudly Crying Face",
+     "keywords": "loudly crying face"
+    },
+    {
+     "char": "😮",
+     "name": "Face With Open Mouth",
+     "keywords": "open mouth"
+    },
+    {
+     "char": "😯",
+     "name": "Hushed Face",
+     "keywords": "hushed face"
+    },
+    {
+     "char": "😰",
+     "name": "Face With Open Mouth And Cold Sweat",
+     "keywords": "open mouth and cold sweat"
+    },
+    {
+     "char": "😱",
+     "name": "Face Screaming In Fear",
+     "keywords": "screaming in fear"
+    },
+    {
+     "char": "😲",
+     "name": "Astonished Face",
+     "keywords": "astonished face"
+    },
+    {
+     "char": "😳",
+     "name": "Flushed Face",
+     "keywords": "flushed face"
+    },
+    {
+     "char": "😴",
+     "name": "Sleeping Face",
+     "keywords": "sleeping face"
+    },
+    {
+     "char": "😵",
+     "name": "Dizzy Face",
+     "keywords": "dizzy face"
+    },
+    {
+     "char": "😶",
+     "name": "Face Without Mouth",
+     "keywords": "without mouth"
+    },
+    {
+     "char": "😷",
+     "name": "Face With Medical Mask",
+     "keywords": "medical mask"
+    },
+    {
+     "char": "😸",
+     "name": "Grinning Cat Face With Smiling Eyes",
+     "keywords": "grinning cat smiling eyes"
+    },
+    {
+     "char": "😹",
+     "name": "Cat Face With Tears Of Joy",
+     "keywords": "cat tears of joy"
+    },
+    {
+     "char": "😺",
+     "name": "Smiling Cat Face With Open Mouth",
+     "keywords": "smiling cat open mouth"
+    },
+    {
+     "char": "😻",
+     "name": "Smiling Cat Face With Heart-Shaped Eyes",
+     "keywords": "smiling cat heart shaped eyes"
+    },
+    {
+     "char": "😼",
+     "name": "Cat Face With Wry Smile",
+     "keywords": "cat wry smile"
+    },
+    {
+     "char": "😽",
+     "name": "Kissing Cat Face With Closed Eyes",
+     "keywords": "kissing cat closed eyes"
+    },
+    {
+     "char": "😾",
+     "name": "Pouting Cat Face",
+     "keywords": "pouting cat face"
+    },
+    {
+     "char": "😿",
+     "name": "Crying Cat Face",
+     "keywords": "crying cat face"
+    },
+    {
+     "char": "🙀",
+     "name": "Weary Cat Face",
+     "keywords": "weary cat face"
+    },
+    {
+     "char": "🙁",
+     "name": "Slightly Frowning Face",
+     "keywords": "slightly frowning face"
+    },
+    {
+     "char": "🙂",
+     "name": "Slightly Smiling Face",
+     "keywords": "slightly smiling face"
+    },
+    {
+     "char": "🙃",
+     "name": "Upside-Down Face",
+     "keywords": "upside down face"
+    },
+    {
+     "char": "🙄",
+     "name": "Face With Rolling Eyes",
+     "keywords": "rolling eyes"
+    },
+    {
+     "char": "🙅",
+     "name": "Face With No Good Gesture",
+     "keywords": "no good gesture"
+    },
+    {
+     "char": "🙆",
+     "name": "Face With Ok Gesture",
+     "keywords": "ok gesture"
+    },
+    {
+     "char": "🙇",
+     "name": "Person Bowing Deeply",
+     "keywords": "person bowing deeply"
+    },
+    {
+     "char": "🙈",
+     "name": "See-No-Evil Monkey",
+     "keywords": "see no evil monkey"
+    },
+    {
+     "char": "🙉",
+     "name": "Hear-No-Evil Monkey",
+     "keywords": "hear no evil monkey"
+    },
+    {
+     "char": "🙊",
+     "name": "Speak-No-Evil Monkey",
+     "keywords": "speak no evil monkey"
+    },
+    {
+     "char": "🙋",
+     "name": "Happy Person Raising One Hand",
+     "keywords": "happy person raising one hand"
+    },
+    {
+     "char": "🙌",
+     "name": "Person Raising Both Hands In Celebration",
+     "keywords": "person raising both hands in celebration"
+    },
+    {
+     "char": "🙍",
+     "name": "Person Frowning",
+     "keywords": "person frowning"
+    },
+    {
+     "char": "🙎",
+     "name": "Person With Pouting Face",
+     "keywords": "person with pouting face"
+    },
+    {
+     "char": "🙏",
+     "name": "Person With Folded Hands",
+     "keywords": "person with folded hands"
+    },
+    {
+     "char": "🤐",
+     "name": "Zipper-Mouth Face",
+     "keywords": "zipper mouth face"
+    },
+    {
+     "char": "🤑",
+     "name": "Money-Mouth Face",
+     "keywords": "money mouth face"
+    },
+    {
+     "char": "🤒",
+     "name": "Face With Thermometer",
+     "keywords": "thermometer"
+    },
+    {
+     "char": "🤓",
+     "name": "Nerd Face",
+     "keywords": "nerd face"
+    },
+    {
+     "char": "🤔",
+     "name": "Thinking Face",
+     "keywords": "thinking face"
+    },
+    {
+     "char": "🤕",
+     "name": "Face With Head-Bandage",
+     "keywords": "head bandage"
+    },
+    {
+     "char": "🤖",
+     "name": "Robot Face",
+     "keywords": "robot face"
+    },
+    {
+     "char": "🤗",
+     "name": "Hugging Face",
+     "keywords": "hugging face"
+    },
+    {
+     "char": "🤘",
+     "name": "Sign Of The Horns",
+     "keywords": "of the horns"
+    },
+    {
+     "char": "🤙",
+     "name": "Call Me Hand",
+     "keywords": "call me hand"
+    },
+    {
+     "char": "🤚",
+     "name": "Raised Back Of Hand",
+     "keywords": "raised back of hand"
+    },
+    {
+     "char": "🤛",
+     "name": "Left-Facing Fist",
+     "keywords": "left facing fist"
+    },
+    {
+     "char": "🤜",
+     "name": "Right-Facing Fist",
+     "keywords": "right facing fist"
+    },
+    {
+     "char": "🤝",
+     "name": "Handshake",
+     "keywords": "handshake"
+    },
+    {
+     "char": "🤞",
+     "name": "Hand With Index And Middle Fingers Crossed",
+     "keywords": "hand with index and middle fingers crossed"
+    },
+    {
+     "char": "🤟",
+     "name": "I Love You Hand Sign",
+     "keywords": "i love you hand"
+    },
+    {
+     "char": "🤠",
+     "name": "Face With Cowboy Hat",
+     "keywords": "cowboy hat"
+    },
+    {
+     "char": "🤡",
+     "name": "Clown Face",
+     "keywords": "clown face"
+    },
+    {
+     "char": "🤢",
+     "name": "Nauseated Face",
+     "keywords": "nauseated face"
+    },
+    {
+     "char": "🤣",
+     "name": "Rolling On The Floor Laughing",
+     "keywords": "rolling on the floor laughing"
+    },
+    {
+     "char": "🤤",
+     "name": "Drooling Face",
+     "keywords": "drooling face"
+    },
+    {
+     "char": "🤥",
+     "name": "Lying Face",
+     "keywords": "lying face"
+    },
+    {
+     "char": "🤦",
+     "name": "Face Palm",
+     "keywords": "palm"
+    },
+    {
+     "char": "🤧",
+     "name": "Sneezing Face",
+     "keywords": "sneezing face"
+    },
+    {
+     "char": "🤨",
+     "name": "Face With One Eyebrow Raised",
+     "keywords": "one eyebrow raised"
+    },
+    {
+     "char": "🤩",
+     "name": "Grinning Face With Star Eyes",
+     "keywords": "grinning star eyes"
+    },
+    {
+     "char": "🤪",
+     "name": "Grinning Face With One Large And One Small Eye",
+     "keywords": "grinning one large and one small eye"
+    },
+    {
+     "char": "🤫",
+     "name": "Face With Finger Covering Closed Lips",
+     "keywords": "finger covering closed lips"
+    },
+    {
+     "char": "🤬",
+     "name": "Serious Face With Symbols Covering Mouth",
+     "keywords": "serious s covering mouth"
+    },
+    {
+     "char": "🤭",
+     "name": "Smiling Face With Smiling Eyes And Hand Covering Mouth",
+     "keywords": "smiling smiling eyes and hand covering mouth"
+    },
+    {
+     "char": "🤮",
+     "name": "Face With Open Mouth Vomiting",
+     "keywords": "open mouth vomiting"
+    },
+    {
+     "char": "🤯",
+     "name": "Shocked Face With Exploding Head",
+     "keywords": "shocked exploding head"
+    },
+    {
+     "char": "🥰",
+     "name": "Smiling Face With Smiling Eyes And Three Hearts",
+     "keywords": "smiling smiling eyes and three hearts"
+    },
+    {
+     "char": "🥱",
+     "name": "Yawning Face",
+     "keywords": "yawning face"
+    },
+    {
+     "char": "🥲",
+     "name": "Smiling Face With Tear",
+     "keywords": "smiling tear"
+    },
+    {
+     "char": "🥳",
+     "name": "Face With Party Horn And Party Hat",
+     "keywords": "party horn and party hat"
+    },
+    {
+     "char": "🥴",
+     "name": "Face With Uneven Eyes And Wavy Mouth",
+     "keywords": "uneven eyes and wavy mouth"
+    },
+    {
+     "char": "🥵",
+     "name": "Overheated Face",
+     "keywords": "overheated face"
+    },
+    {
+     "char": "🥶",
+     "name": "Freezing Face",
+     "keywords": "freezing face"
+    },
+    {
+     "char": "🥷",
+     "name": "Ninja",
+     "keywords": "ninja"
+    },
+    {
+     "char": "🥸",
+     "name": "Disguised Face",
+     "keywords": "disguised face"
+    },
+    {
+     "char": "🥺",
+     "name": "Face With Pleading Eyes",
+     "keywords": "pleading eyes"
+    },
+    {
+     "char": "☺️",
+     "name": "White Smiling Face",
+     "keywords": "white smiling face"
+    },
+    {
+     "char": "☻️",
+     "name": "Black Smiling Face",
+     "keywords": "black smiling face"
+    },
+    {
+     "char": "☹️",
+     "name": "White Frowning Face",
+     "keywords": "white frowning face"
+    }
+   ]
+  },
+  {
+   "name": "People",
+   "emoji": [
+    {
+     "char": "👤",
+     "name": "Bust In Silhouette",
+     "keywords": "bust in silhouette"
+    },
+    {
+     "char": "👥",
+     "name": "Busts In Silhouette",
+     "keywords": "busts in silhouette"
+    },
+    {
+     "char": "👦",
+     "name": "Boy",
+     "keywords": "boy"
+    },
+    {
+     "char": "👧",
+     "name": "Girl",
+     "keywords": "girl"
+    },
+    {
+     "char": "👨",
+     "name": "Man",
+     "keywords": "man"
+    },
+    {
+     "char": "👩",
+     "name": "Woman",
+     "keywords": "woman"
+    },
+    {
+     "char": "👪",
+     "name": "Family",
+     "keywords": "family"
+    },
+    {
+     "char": "👫",
+     "name": "Man And Woman Holding Hands",
+     "keywords": "man and woman holding hands"
+    },
+    {
+     "char": "👬",
+     "name": "Two Men Holding Hands",
+     "keywords": "two men holding hands"
+    },
+    {
+     "char": "👭",
+     "name": "Two Women Holding Hands",
+     "keywords": "two women holding hands"
+    },
+    {
+     "char": "👮",
+     "name": "Police Officer",
+     "keywords": "police officer"
+    },
+    {
+     "char": "👯",
+     "name": "Woman With Bunny Ears",
+     "keywords": "woman with bunny ears"
+    },
+    {
+     "char": "👰",
+     "name": "Bride With Veil",
+     "keywords": "bride with veil"
+    },
+    {
+     "char": "👱",
+     "name": "Person With Blond Hair",
+     "keywords": "person with blond hair"
+    },
+    {
+     "char": "👲",
+     "name": "Man With Gua Pi Mao",
+     "keywords": "man with gua pi mao"
+    },
+    {
+     "char": "👳",
+     "name": "Man With Turban",
+     "keywords": "man with turban"
+    },
+    {
+     "char": "👴",
+     "name": "Older Man",
+     "keywords": "older man"
+    },
+    {
+     "char": "👵",
+     "name": "Older Woman",
+     "keywords": "older woman"
+    },
+    {
+     "char": "👶",
+     "name": "Baby",
+     "keywords": "baby"
+    },
+    {
+     "char": "👷",
+     "name": "Construction Worker",
+     "keywords": "construction worker"
+    },
+    {
+     "char": "👸",
+     "name": "Princess",
+     "keywords": "princess"
+    },
+    {
+     "char": "👹",
+     "name": "Japanese Ogre",
+     "keywords": "japanese ogre"
+    },
+    {
+     "char": "👺",
+     "name": "Japanese Goblin",
+     "keywords": "japanese goblin"
+    },
+    {
+     "char": "👻",
+     "name": "Ghost",
+     "keywords": "ghost"
+    },
+    {
+     "char": "👼",
+     "name": "Baby Angel",
+     "keywords": "baby angel"
+    },
+    {
+     "char": "👽",
+     "name": "Extraterrestrial Alien",
+     "keywords": "extraterrestrial alien"
+    },
+    {
+     "char": "👾",
+     "name": "Alien Monster",
+     "keywords": "alien monster"
+    },
+    {
+     "char": "👿",
+     "name": "Imp",
+     "keywords": "imp"
+    },
+    {
+     "char": "💀",
+     "name": "Skull",
+     "keywords": "skull"
+    },
+    {
+     "char": "💁",
+     "name": "Information Desk Person",
+     "keywords": "information desk person"
+    },
+    {
+     "char": "💂",
+     "name": "Guardsman",
+     "keywords": "guardsman"
+    },
+    {
+     "char": "💃",
+     "name": "Dancer",
+     "keywords": "dancer"
+    },
+    {
+     "char": "💄",
+     "name": "Lipstick",
+     "keywords": "lipstick"
+    },
+    {
+     "char": "💅",
+     "name": "Nail Polish",
+     "keywords": "nail polish"
+    },
+    {
+     "char": "💆",
+     "name": "Face Massage",
+     "keywords": "massage"
+    },
+    {
+     "char": "💇",
+     "name": "Haircut",
+     "keywords": "haircut"
+    },
+    {
+     "char": "🦰",
+     "name": "Emoji Component Red Hair",
+     "keywords": "emoji component red hair"
+    },
+    {
+     "char": "🦱",
+     "name": "Emoji Component Curly Hair",
+     "keywords": "emoji component curly hair"
+    },
+    {
+     "char": "🦲",
+     "name": "Emoji Component Bald",
+     "keywords": "emoji component bald"
+    },
+    {
+     "char": "🦳",
+     "name": "Emoji Component White Hair",
+     "keywords": "emoji component white hair"
+    },
+    {
+     "char": "🧐",
+     "name": "Face With Monocle",
+     "keywords": "monocle"
+    },
+    {
+     "char": "🧑",
+     "name": "Adult",
+     "keywords": "adult"
+    },
+    {
+     "char": "🧒",
+     "name": "Child",
+     "keywords": "child"
+    },
+    {
+     "char": "🧓",
+     "name": "Older Adult",
+     "keywords": "older adult"
+    },
+    {
+     "char": "🧔",
+     "name": "Bearded Person",
+     "keywords": "bearded person"
+    },
+    {
+     "char": "🧕",
+     "name": "Person With Headscarf",
+     "keywords": "person with headscarf"
+    },
+    {
+     "char": "🧖",
+     "name": "Person In Steamy Room",
+     "keywords": "person in steamy room"
+    },
+    {
+     "char": "🧗",
+     "name": "Person Climbing",
+     "keywords": "person climbing"
+    },
+    {
+     "char": "🧘",
+     "name": "Person In Lotus Position",
+     "keywords": "person in lotus position"
+    },
+    {
+     "char": "🧙",
+     "name": "Mage",
+     "keywords": "mage"
+    },
+    {
+     "char": "🧚",
+     "name": "Fairy",
+     "keywords": "fairy"
+    },
+    {
+     "char": "🧛",
+     "name": "Vampire",
+     "keywords": "vampire"
+    },
+    {
+     "char": "🧜",
+     "name": "Merperson",
+     "keywords": "merperson"
+    },
+    {
+     "char": "🧝",
+     "name": "Elf",
+     "keywords": "elf"
+    },
+    {
+     "char": "🧞",
+     "name": "Genie",
+     "keywords": "genie"
+    },
+    {
+     "char": "🧟",
+     "name": "Zombie",
+     "keywords": "zombie"
+    },
+    {
+     "char": "👊",
+     "name": "Fisted Hand Sign",
+     "keywords": "fisted hand"
+    },
+    {
+     "char": "👋",
+     "name": "Waving Hand Sign",
+     "keywords": "waving hand"
+    },
+    {
+     "char": "👌",
+     "name": "Ok Hand Sign",
+     "keywords": "ok hand"
+    },
+    {
+     "char": "👍",
+     "name": "Thumbs Up Sign",
+     "keywords": "thumbs up"
+    },
+    {
+     "char": "👎",
+     "name": "Thumbs Down Sign",
+     "keywords": "thumbs down"
+    },
+    {
+     "char": "👏",
+     "name": "Clapping Hands Sign",
+     "keywords": "clapping hands"
+    },
+    {
+     "char": "👐",
+     "name": "Open Hands Sign",
+     "keywords": "open hands"
+    },
+    {
+     "char": "✊️",
+     "name": "Raised Fist",
+     "keywords": "raised fist"
+    },
+    {
+     "char": "✋️",
+     "name": "Raised Hand",
+     "keywords": "raised hand"
+    },
+    {
+     "char": "✌️",
+     "name": "Victory Hand",
+     "keywords": "victory hand"
+    },
+    {
+     "char": "✍️",
+     "name": "Writing Hand",
+     "keywords": "writing hand"
+    },
+    {
+     "char": "🤰",
+     "name": "Pregnant Woman",
+     "keywords": "pregnant woman"
+    },
+    {
+     "char": "🤱",
+     "name": "Breast-Feeding",
+     "keywords": "breast feeding"
+    },
+    {
+     "char": "🤲",
+     "name": "Palms Up Together",
+     "keywords": "palms up together"
+    },
+    {
+     "char": "🤳",
+     "name": "Selfie",
+     "keywords": "selfie"
+    },
+    {
+     "char": "🤴",
+     "name": "Prince",
+     "keywords": "prince"
+    },
+    {
+     "char": "🤵",
+     "name": "Man In Tuxedo",
+     "keywords": "man in tuxedo"
+    },
+    {
+     "char": "🤶",
+     "name": "Mother Christmas",
+     "keywords": "mother christmas"
+    },
+    {
+     "char": "🤷",
+     "name": "Shrug",
+     "keywords": "shrug"
+    },
+    {
+     "char": "🤸",
+     "name": "Person Doing Cartwheel",
+     "keywords": "person doing cartwheel"
+    },
+    {
+     "char": "🤹",
+     "name": "Juggling",
+     "keywords": "juggling"
+    },
+    {
+     "char": "🤺",
+     "name": "Fencer",
+     "keywords": "fencer"
+    },
+    {
+     "char": "🖕",
+     "name": "Reversed Hand With Middle Finger Extended",
+     "keywords": "reversed hand with middle finger extended"
+    },
+    {
+     "char": "🖖",
+     "name": "Raised Hand With Part Between Middle And Ring Fingers",
+     "keywords": "raised hand with part between middle and ring fingers"
+    }
+   ]
+  },
+  {
+   "name": "Animals & Nature",
+   "emoji": [
+    {
+     "char": "🐀",
+     "name": "Rat",
+     "keywords": "rat"
+    },
+    {
+     "char": "🐁",
+     "name": "Mouse",
+     "keywords": "mouse"
+    },
+    {
+     "char": "🐂",
+     "name": "Ox",
+     "keywords": "ox"
+    },
+    {
+     "char": "🐃",
+     "name": "Water Buffalo",
+     "keywords": "water buffalo"
+    },
+    {
+     "char": "🐄",
+     "name": "Cow",
+     "keywords": "cow"
+    },
+    {
+     "char": "🐅",
+     "name": "Tiger",
+     "keywords": "tiger"
+    },
+    {
+     "char": "🐆",
+     "name": "Leopard",
+     "keywords": "leopard"
+    },
+    {
+     "char": "🐇",
+     "name": "Rabbit",
+     "keywords": "rabbit"
+    },
+    {
+     "char": "🐈",
+     "name": "Cat",
+     "keywords": "cat"
+    },
+    {
+     "char": "🐉",
+     "name": "Dragon",
+     "keywords": "dragon"
+    },
+    {
+     "char": "🐊",
+     "name": "Crocodile",
+     "keywords": "crocodile"
+    },
+    {
+     "char": "🐋",
+     "name": "Whale",
+     "keywords": "whale"
+    },
+    {
+     "char": "🐌",
+     "name": "Snail",
+     "keywords": "snail"
+    },
+    {
+     "char": "🐍",
+     "name": "Snake",
+     "keywords": "snake"
+    },
+    {
+     "char": "🐎",
+     "name": "Horse",
+     "keywords": "horse"
+    },
+    {
+     "char": "🐏",
+     "name": "Ram",
+     "keywords": "ram"
+    },
+    {
+     "char": "🐐",
+     "name": "Goat",
+     "keywords": "goat"
+    },
+    {
+     "char": "🐑",
+     "name": "Sheep",
+     "keywords": "sheep"
+    },
+    {
+     "char": "🐒",
+     "name": "Monkey",
+     "keywords": "monkey"
+    },
+    {
+     "char": "🐓",
+     "name": "Rooster",
+     "keywords": "rooster"
+    },
+    {
+     "char": "🐔",
+     "name": "Chicken",
+     "keywords": "chicken"
+    },
+    {
+     "char": "🐕",
+     "name": "Dog",
+     "keywords": "dog"
+    },
+    {
+     "char": "🐖",
+     "name": "Pig",
+     "keywords": "pig"
+    },
+    {
+     "char": "🐗",
+     "name": "Boar",
+     "keywords": "boar"
+    },
+    {
+     "char": "🐘",
+     "name": "Elephant",
+     "keywords": "elephant"
+    },
+    {
+     "char": "🐙",
+     "name": "Octopus",
+     "keywords": "octopus"
+    },
+    {
+     "char": "🐚",
+     "name": "Spiral Shell",
+     "keywords": "spiral shell"
+    },
+    {
+     "char": "🐛",
+     "name": "Bug",
+     "keywords": "bug"
+    },
+    {
+     "char": "🐜",
+     "name": "Ant",
+     "keywords": "ant"
+    },
+    {
+     "char": "🐝",
+     "name": "Honeybee",
+     "keywords": "honeybee"
+    },
+    {
+     "char": "🐞",
+     "name": "Lady Beetle",
+     "keywords": "lady beetle"
+    },
+    {
+     "char": "🐟",
+     "name": "Fish",
+     "keywords": "fish"
+    },
+    {
+     "char": "🐠",
+     "name": "Tropical Fish",
+     "keywords": "tropical fish"
+    },
+    {
+     "char": "🐡",
+     "name": "Blowfish",
+     "keywords": "blowfish"
+    },
+    {
+     "char": "🐢",
+     "name": "Turtle",
+     "keywords": "turtle"
+    },
+    {
+     "char": "🐣",
+     "name": "Hatching Chick",
+     "keywords": "hatching chick"
+    },
+    {
+     "char": "🐤",
+     "name": "Baby Chick",
+     "keywords": "baby chick"
+    },
+    {
+     "char": "🐥",
+     "name": "Front-Facing Baby Chick",
+     "keywords": "front facing baby chick"
+    },
+    {
+     "char": "🐦",
+     "name": "Bird",
+     "keywords": "bird"
+    },
+    {
+     "char": "🐧",
+     "name": "Penguin",
+     "keywords": "penguin"
+    },
+    {
+     "char": "🐨",
+     "name": "Koala",
+     "keywords": "koala"
+    },
+    {
+     "char": "🐩",
+     "name": "Poodle",
+     "keywords": "poodle"
+    },
+    {
+     "char": "🐪",
+     "name": "Dromedary Camel",
+     "keywords": "dromedary camel"
+    },
+    {
+     "char": "🐫",
+     "name": "Bactrian Camel",
+     "keywords": "bactrian camel"
+    },
+    {
+     "char": "🐬",
+     "name": "Dolphin",
+     "keywords": "dolphin"
+    },
+    {
+     "char": "🐭",
+     "name": "Mouse Face",
+     "keywords": "mouse face"
+    },
+    {
+     "char": "🐮",
+     "name": "Cow Face",
+     "keywords": "cow face"
+    },
+    {
+     "char": "🐯",
+     "name": "Tiger Face",
+     "keywords": "tiger face"
+    },
+    {
+     "char": "🐰",
+     "name": "Rabbit Face",
+     "keywords": "rabbit face"
+    },
+    {
+     "char": "🐱",
+     "name": "Cat Face",
+     "keywords": "cat face"
+    },
+    {
+     "char": "🐲",
+     "name": "Dragon Face",
+     "keywords": "dragon face"
+    },
+    {
+     "char": "🐳",
+     "name": "Spouting Whale",
+     "keywords": "spouting whale"
+    },
+    {
+     "char": "🐴",
+     "name": "Horse Face",
+     "keywords": "horse face"
+    },
+    {
+     "char": "🐵",
+     "name": "Monkey Face",
+     "keywords": "monkey face"
+    },
+    {
+     "char": "🐶",
+     "name": "Dog Face",
+     "keywords": "dog face"
+    },
+    {
+     "char": "🐷",
+     "name": "Pig Face",
+     "keywords": "pig face"
+    },
+    {
+     "char": "🐸",
+     "name": "Frog Face",
+     "keywords": "frog face"
+    },
+    {
+     "char": "🐹",
+     "name": "Hamster Face",
+     "keywords": "hamster face"
+    },
+    {
+     "char": "🐺",
+     "name": "Wolf Face",
+     "keywords": "wolf face"
+    },
+    {
+     "char": "🐻",
+     "name": "Bear Face",
+     "keywords": "bear face"
+    },
+    {
+     "char": "🐼",
+     "name": "Panda Face",
+     "keywords": "panda face"
+    },
+    {
+     "char": "🐽",
+     "name": "Pig Nose",
+     "keywords": "pig nose"
+    },
+    {
+     "char": "🐾",
+     "name": "Paw Prints",
+     "keywords": "paw prints"
+    },
+    {
+     "char": "🐿",
+     "name": "Chipmunk",
+     "keywords": "chipmunk"
+    },
+    {
+     "char": "🦀",
+     "name": "Crab",
+     "keywords": "crab"
+    },
+    {
+     "char": "🦁",
+     "name": "Lion Face",
+     "keywords": "lion face"
+    },
+    {
+     "char": "🦂",
+     "name": "Scorpion",
+     "keywords": "scorpion"
+    },
+    {
+     "char": "🦃",
+     "name": "Turkey",
+     "keywords": "turkey"
+    },
+    {
+     "char": "🦄",
+     "name": "Unicorn Face",
+     "keywords": "unicorn face"
+    },
+    {
+     "char": "🦅",
+     "name": "Eagle",
+     "keywords": "eagle"
+    },
+    {
+     "char": "🦆",
+     "name": "Duck",
+     "keywords": "duck"
+    },
+    {
+     "char": "🦇",
+     "name": "Bat",
+     "keywords": "bat"
+    },
+    {
+     "char": "🦈",
+     "name": "Shark",
+     "keywords": "shark"
+    },
+    {
+     "char": "🦉",
+     "name": "Owl",
+     "keywords": "owl"
+    },
+    {
+     "char": "🦊",
+     "name": "Fox Face",
+     "keywords": "fox face"
+    },
+    {
+     "char": "🦋",
+     "name": "Butterfly",
+     "keywords": "butterfly"
+    },
+    {
+     "char": "🦌",
+     "name": "Deer",
+     "keywords": "deer"
+    },
+    {
+     "char": "🦍",
+     "name": "Gorilla",
+     "keywords": "gorilla"
+    },
+    {
+     "char": "🦎",
+     "name": "Lizard",
+     "keywords": "lizard"
+    },
+    {
+     "char": "🦏",
+     "name": "Rhinoceros",
+     "keywords": "rhinoceros"
+    },
+    {
+     "char": "🦐",
+     "name": "Shrimp",
+     "keywords": "shrimp"
+    },
+    {
+     "char": "🦑",
+     "name": "Squid",
+     "keywords": "squid"
+    },
+    {
+     "char": "🦒",
+     "name": "Giraffe Face",
+     "keywords": "giraffe face"
+    },
+    {
+     "char": "🦓",
+     "name": "Zebra Face",
+     "keywords": "zebra face"
+    },
+    {
+     "char": "🦔",
+     "name": "Hedgehog",
+     "keywords": "hedgehog"
+    },
+    {
+     "char": "🦕",
+     "name": "Sauropod",
+     "keywords": "sauropod"
+    },
+    {
+     "char": "🦖",
+     "name": "T-Rex",
+     "keywords": "t rex"
+    },
+    {
+     "char": "🦗",
+     "name": "Cricket",
+     "keywords": "cricket"
+    },
+    {
+     "char": "🦘",
+     "name": "Kangaroo",
+     "keywords": "kangaroo"
+    },
+    {
+     "char": "🦙",
+     "name": "Llama",
+     "keywords": "llama"
+    },
+    {
+     "char": "🦚",
+     "name": "Peacock",
+     "keywords": "peacock"
+    },
+    {
+     "char": "🦛",
+     "name": "Hippopotamus",
+     "keywords": "hippopotamus"
+    },
+    {
+     "char": "🦜",
+     "name": "Parrot",
+     "keywords": "parrot"
+    },
+    {
+     "char": "🦝",
+     "name": "Raccoon",
+     "keywords": "raccoon"
+    },
+    {
+     "char": "🦞",
+     "name": "Lobster",
+     "keywords": "lobster"
+    },
+    {
+     "char": "🦟",
+     "name": "Mosquito",
+     "keywords": "mosquito"
+    },
+    {
+     "char": "🦠",
+     "name": "Microbe",
+     "keywords": "microbe"
+    },
+    {
+     "char": "🦡",
+     "name": "Badger",
+     "keywords": "badger"
+    },
+    {
+     "char": "🦢",
+     "name": "Swan",
+     "keywords": "swan"
+    },
+    {
+     "char": "🦣",
+     "name": "Mammoth",
+     "keywords": "mammoth"
+    },
+    {
+     "char": "🦤",
+     "name": "Dodo",
+     "keywords": "dodo"
+    },
+    {
+     "char": "🦥",
+     "name": "Sloth",
+     "keywords": "sloth"
+    },
+    {
+     "char": "🦦",
+     "name": "Otter",
+     "keywords": "otter"
+    },
+    {
+     "char": "🦧",
+     "name": "Orangutan",
+     "keywords": "orangutan"
+    },
+    {
+     "char": "🦨",
+     "name": "Skunk",
+     "keywords": "skunk"
+    },
+    {
+     "char": "🦩",
+     "name": "Flamingo",
+     "keywords": "flamingo"
+    },
+    {
+     "char": "🦪",
+     "name": "Oyster",
+     "keywords": "oyster"
+    },
+    {
+     "char": "🦫",
+     "name": "Beaver",
+     "keywords": "beaver"
+    },
+    {
+     "char": "🦬",
+     "name": "Bison",
+     "keywords": "bison"
+    },
+    {
+     "char": "🦭",
+     "name": "Seal",
+     "keywords": "seal"
+    },
+    {
+     "char": "🦮",
+     "name": "Guide Dog",
+     "keywords": "guide dog"
+    },
+    {
+     "char": "🌰",
+     "name": "Chestnut",
+     "keywords": "chestnut"
+    },
+    {
+     "char": "🌱",
+     "name": "Seedling",
+     "keywords": "seedling"
+    },
+    {
+     "char": "🌲",
+     "name": "Evergreen Tree",
+     "keywords": "evergreen tree"
+    },
+    {
+     "char": "🌳",
+     "name": "Deciduous Tree",
+     "keywords": "deciduous tree"
+    },
+    {
+     "char": "🌴",
+     "name": "Palm Tree",
+     "keywords": "palm tree"
+    },
+    {
+     "char": "🌵",
+     "name": "Cactus",
+     "keywords": "cactus"
+    },
+    {
+     "char": "🌶",
+     "name": "Hot Pepper",
+     "keywords": "hot pepper"
+    },
+    {
+     "char": "🌷",
+     "name": "Tulip",
+     "keywords": "tulip"
+    },
+    {
+     "char": "🌸",
+     "name": "Cherry Blossom",
+     "keywords": "cherry blossom"
+    },
+    {
+     "char": "🌹",
+     "name": "Rose",
+     "keywords": "rose"
+    },
+    {
+     "char": "🌺",
+     "name": "Hibiscus",
+     "keywords": "hibiscus"
+    },
+    {
+     "char": "🌻",
+     "name": "Sunflower",
+     "keywords": "sunflower"
+    },
+    {
+     "char": "🌼",
+     "name": "Blossom",
+     "keywords": "blossom"
+    },
+    {
+     "char": "🌽",
+     "name": "Ear Of Maize",
+     "keywords": "ear of maize"
+    },
+    {
+     "char": "🌾",
+     "name": "Ear Of Rice",
+     "keywords": "ear of rice"
+    },
+    {
+     "char": "🌿",
+     "name": "Herb",
+     "keywords": "herb"
+    },
+    {
+     "char": "🍀",
+     "name": "Four Leaf Clover",
+     "keywords": "four leaf clover"
+    },
+    {
+     "char": "🍁",
+     "name": "Maple Leaf",
+     "keywords": "maple leaf"
+    },
+    {
+     "char": "🍂",
+     "name": "Fallen Leaf",
+     "keywords": "fallen leaf"
+    },
+    {
+     "char": "🍃",
+     "name": "Leaf Fluttering In Wind",
+     "keywords": "leaf fluttering in wind"
+    },
+    {
+     "char": "🍄",
+     "name": "Mushroom",
+     "keywords": "mushroom"
+    },
+    {
+     "char": "🌈",
+     "name": "Rainbow",
+     "keywords": "rainbow"
+    },
+    {
+     "char": "🌉",
+     "name": "Bridge At Night",
+     "keywords": "bridge at night"
+    },
+    {
+     "char": "🌊",
+     "name": "Water Wave",
+     "keywords": "water wave"
+    },
+    {
+     "char": "🌋",
+     "name": "Volcano",
+     "keywords": "volcano"
+    },
+    {
+     "char": "🌌",
+     "name": "Milky Way",
+     "keywords": "milky way"
+    },
+    {
+     "char": "☀️",
+     "name": "Black Sun With Rays",
+     "keywords": "black sun with rays"
+    },
+    {
+     "char": "☁️",
+     "name": "Cloud",
+     "keywords": "cloud"
+    },
+    {
+     "char": "☂️",
+     "name": "Umbrella",
+     "keywords": "umbrella"
+    },
+    {
+     "char": "☃️",
+     "name": "Snowman",
+     "keywords": "snowman"
+    },
+    {
+     "char": "☄️",
+     "name": "Comet",
+     "keywords": "comet"
+    },
+    {
+     "char": "⛄️",
+     "name": "Snowman Without Snow",
+     "keywords": "snowman without snow"
+    },
+    {
+     "char": "⛅️",
+     "name": "Sun Behind Cloud",
+     "keywords": "sun behind cloud"
+    },
+    {
+     "char": "⛆️",
+     "name": "Rain",
+     "keywords": "rain"
+    },
+    {
+     "char": "⛇️",
+     "name": "Black Snowman",
+     "keywords": "black snowman"
+    },
+    {
+     "char": "⛈️",
+     "name": "Thunder Cloud And Rain",
+     "keywords": "thunder cloud and rain"
+    },
+    {
+     "char": "🌤",
+     "name": "White Sun With Small Cloud",
+     "keywords": "white sun with small cloud"
+    },
+    {
+     "char": "🌥",
+     "name": "White Sun Behind Cloud",
+     "keywords": "white sun behind cloud"
+    },
+    {
+     "char": "🌦",
+     "name": "White Sun Behind Cloud With Rain",
+     "keywords": "white sun behind cloud with rain"
+    },
+    {
+     "char": "🌧",
+     "name": "Cloud With Rain",
+     "keywords": "cloud with rain"
+    },
+    {
+     "char": "🌨",
+     "name": "Cloud With Snow",
+     "keywords": "cloud with snow"
+    },
+    {
+     "char": "🌩",
+     "name": "Cloud With Lightning",
+     "keywords": "cloud with lightning"
+    },
+    {
+     "char": "🌪",
+     "name": "Cloud With Tornado",
+     "keywords": "cloud with tornado"
+    },
+    {
+     "char": "🌫",
+     "name": "Fog",
+     "keywords": "fog"
+    },
+    {
+     "char": "🌬",
+     "name": "Wind Blowing Face",
+     "keywords": "wind blowing face"
+    }
+   ]
+  },
+  {
+   "name": "Food & Drink",
+   "emoji": [
+    {
+     "char": "🍅",
+     "name": "Tomato",
+     "keywords": "tomato"
+    },
+    {
+     "char": "🍆",
+     "name": "Aubergine",
+     "keywords": "aubergine"
+    },
+    {
+     "char": "🍇",
+     "name": "Grapes",
+     "keywords": "grapes"
+    },
+    {
+     "char": "🍈",
+     "name": "Melon",
+     "keywords": "melon"
+    },
+    {
+     "char": "🍉",
+     "name": "Watermelon",
+     "keywords": "watermelon"
+    },
+    {
+     "char": "🍊",
+     "name": "Tangerine",
+     "keywords": "tangerine"
+    },
+    {
+     "char": "🍋",
+     "name": "Lemon",
+     "keywords": "lemon"
+    },
+    {
+     "char": "🍌",
+     "name": "Banana",
+     "keywords": "banana"
+    },
+    {
+     "char": "🍍",
+     "name": "Pineapple",
+     "keywords": "pineapple"
+    },
+    {
+     "char": "🍎",
+     "name": "Red Apple",
+     "keywords": "red apple"
+    },
+    {
+     "char": "🍏",
+     "name": "Green Apple",
+     "keywords": "green apple"
+    },
+    {
+     "char": "🍐",
+     "name": "Pear",
+     "keywords": "pear"
+    },
+    {
+     "char": "🍑",
+     "name": "Peach",
+     "keywords": "peach"
+    },
+    {
+     "char": "🍒",
+     "name": "Cherries",
+     "keywords": "cherries"
+    },
+    {
+     "char": "🍓",
+     "name": "Strawberry",
+     "keywords": "strawberry"
+    },
+    {
+     "char": "🍔",
+     "name": "Hamburger",
+     "keywords": "hamburger"
+    },
+    {
+     "char": "🍕",
+     "name": "Slice Of Pizza",
+     "keywords": "slice of pizza"
+    },
+    {
+     "char": "🍖",
+     "name": "Meat On Bone",
+     "keywords": "meat on bone"
+    },
+    {
+     "char": "🍗",
+     "name": "Poultry Leg",
+     "keywords": "poultry leg"
+    },
+    {
+     "char": "🍘",
+     "name": "Rice Cracker",
+     "keywords": "rice cracker"
+    },
+    {
+     "char": "🍙",
+     "name": "Rice Ball",
+     "keywords": "rice ball"
+    },
+    {
+     "char": "🍚",
+     "name": "Cooked Rice",
+     "keywords": "cooked rice"
+    },
+    {
+     "char": "🍛",
+     "name": "Curry And Rice",
+     "keywords": "curry and rice"
+    },
+    {
+     "char": "🍜",
+     "name": "Steaming Bowl",
+     "keywords": "steaming bowl"
+    },
+    {
+     "char": "🍝",
+     "name": "Spaghetti",
+     "keywords": "spaghetti"
+    },
+    {
+     "char": "🍞",
+     "name": "Bread",
+     "keywords": "bread"
+    },
+    {
+     "char": "🍟",
+     "name": "French Fries",
+     "keywords": "french fries"
+    },
+    {
+     "char": "🍠",
+     "name": "Roasted Sweet Potato",
+     "keywords": "roasted sweet potato"
+    },
+    {
+     "char": "🍡",
+     "name": "Dango",
+     "keywords": "dango"
+    },
+    {
+     "char": "🍢",
+     "name": "Oden",
+     "keywords": "oden"
+    },
+    {
+     "char": "🍣",
+     "name": "Sushi",
+     "keywords": "sushi"
+    },
+    {
+     "char": "🍤",
+     "name": "Fried Shrimp",
+     "keywords": "fried shrimp"
+    },
+    {
+     "char": "🍥",
+     "name": "Fish Cake With Swirl Design",
+     "keywords": "fish cake with swirl de"
+    },
+    {
+     "char": "🍦",
+     "name": "Soft Ice Cream",
+     "keywords": "soft ice cream"
+    },
+    {
+     "char": "🍧",
+     "name": "Shaved Ice",
+     "keywords": "shaved ice"
+    },
+    {
+     "char": "🍨",
+     "name": "Ice Cream",
+     "keywords": "ice cream"
+    },
+    {
+     "char": "🍩",
+     "name": "Doughnut",
+     "keywords": "doughnut"
+    },
+    {
+     "char": "🍪",
+     "name": "Cookie",
+     "keywords": "cookie"
+    },
+    {
+     "char": "🍫",
+     "name": "Chocolate Bar",
+     "keywords": "chocolate bar"
+    },
+    {
+     "char": "🍬",
+     "name": "Candy",
+     "keywords": "candy"
+    },
+    {
+     "char": "🍭",
+     "name": "Lollipop",
+     "keywords": "lollipop"
+    },
+    {
+     "char": "🍮",
+     "name": "Custard",
+     "keywords": "custard"
+    },
+    {
+     "char": "🍯",
+     "name": "Honey Pot",
+     "keywords": "honey pot"
+    },
+    {
+     "char": "🍰",
+     "name": "Shortcake",
+     "keywords": "shortcake"
+    },
+    {
+     "char": "🍱",
+     "name": "Bento Box",
+     "keywords": "bento box"
+    },
+    {
+     "char": "🍲",
+     "name": "Pot Of Food",
+     "keywords": "pot of food"
+    },
+    {
+     "char": "🍳",
+     "name": "Cooking",
+     "keywords": "cooking"
+    },
+    {
+     "char": "🍴",
+     "name": "Fork And Knife",
+     "keywords": "fork and knife"
+    },
+    {
+     "char": "🍵",
+     "name": "Teacup Without Handle",
+     "keywords": "teacup without handle"
+    },
+    {
+     "char": "🍶",
+     "name": "Sake Bottle And Cup",
+     "keywords": "sake bottle and cup"
+    },
+    {
+     "char": "🍷",
+     "name": "Wine Glass",
+     "keywords": "wine glass"
+    },
+    {
+     "char": "🍸",
+     "name": "Cocktail Glass",
+     "keywords": "cocktail glass"
+    },
+    {
+     "char": "🍹",
+     "name": "Tropical Drink",
+     "keywords": "tropical drink"
+    },
+    {
+     "char": "🍺",
+     "name": "Beer Mug",
+     "keywords": "beer mug"
+    },
+    {
+     "char": "🍻",
+     "name": "Clinking Beer Mugs",
+     "keywords": "clinking beer mugs"
+    },
+    {
+     "char": "🍼",
+     "name": "Baby Bottle",
+     "keywords": "baby bottle"
+    },
+    {
+     "char": "🍽",
+     "name": "Fork And Knife With Plate",
+     "keywords": "fork and knife with plate"
+    },
+    {
+     "char": "🍾",
+     "name": "Bottle With Popping Cork",
+     "keywords": "bottle with popping cork"
+    },
+    {
+     "char": "🍿",
+     "name": "Popcorn",
+     "keywords": "popcorn"
+    },
+    {
+     "char": "🌭",
+     "name": "Hot Dog",
+     "keywords": "hot dog"
+    },
+    {
+     "char": "🌮",
+     "name": "Taco",
+     "keywords": "taco"
+    },
+    {
+     "char": "🌯",
+     "name": "Burrito",
+     "keywords": "burrito"
+    },
+    {
+     "char": "🥐",
+     "name": "Croissant",
+     "keywords": "croissant"
+    },
+    {
+     "char": "🥑",
+     "name": "Avocado",
+     "keywords": "avocado"
+    },
+    {
+     "char": "🥒",
+     "name": "Cucumber",
+     "keywords": "cucumber"
+    },
+    {
+     "char": "🥓",
+     "name": "Bacon",
+     "keywords": "bacon"
+    },
+    {
+     "char": "🥔",
+     "name": "Potato",
+     "keywords": "potato"
+    },
+    {
+     "char": "🥕",
+     "name": "Carrot",
+     "keywords": "carrot"
+    },
+    {
+     "char": "🥖",
+     "name": "Baguette Bread",
+     "keywords": "baguette bread"
+    },
+    {
+     "char": "🥗",
+     "name": "Green Salad",
+     "keywords": "green salad"
+    },
+    {
+     "char": "🥘",
+     "name": "Shallow Pan Of Food",
+     "keywords": "shallow pan of food"
+    },
+    {
+     "char": "🥙",
+     "name": "Stuffed Flatbread",
+     "keywords": "stuffed flatbread"
+    },
+    {
+     "char": "🥚",
+     "name": "Egg",
+     "keywords": "egg"
+    },
+    {
+     "char": "🥛",
+     "name": "Glass Of Milk",
+     "keywords": "glass of milk"
+    },
+    {
+     "char": "🥜",
+     "name": "Peanuts",
+     "keywords": "peanuts"
+    },
+    {
+     "char": "🥝",
+     "name": "Kiwifruit",
+     "keywords": "kiwifruit"
+    },
+    {
+     "char": "🥞",
+     "name": "Pancakes",
+     "keywords": "pancakes"
+    },
+    {
+     "char": "🥟",
+     "name": "Dumpling",
+     "keywords": "dumpling"
+    },
+    {
+     "char": "🥠",
+     "name": "Fortune Cookie",
+     "keywords": "fortune cookie"
+    },
+    {
+     "char": "🥡",
+     "name": "Takeout Box",
+     "keywords": "takeout box"
+    },
+    {
+     "char": "🥢",
+     "name": "Chopsticks",
+     "keywords": "chopsticks"
+    },
+    {
+     "char": "🥣",
+     "name": "Bowl With Spoon",
+     "keywords": "bowl with spoon"
+    },
+    {
+     "char": "🥤",
+     "name": "Cup With Straw",
+     "keywords": "cup with straw"
+    },
+    {
+     "char": "🥥",
+     "name": "Coconut",
+     "keywords": "coconut"
+    },
+    {
+     "char": "🥦",
+     "name": "Broccoli",
+     "keywords": "broccoli"
+    },
+    {
+     "char": "🥧",
+     "name": "Pie",
+     "keywords": "pie"
+    },
+    {
+     "char": "🥨",
+     "name": "Pretzel",
+     "keywords": "pretzel"
+    },
+    {
+     "char": "🥩",
+     "name": "Cut Of Meat",
+     "keywords": "cut of meat"
+    },
+    {
+     "char": "🥪",
+     "name": "Sandwich",
+     "keywords": "sandwich"
+    },
+    {
+     "char": "🥫",
+     "name": "Canned Food",
+     "keywords": "canned food"
+    },
+    {
+     "char": "🥬",
+     "name": "Leafy Green",
+     "keywords": "leafy green"
+    },
+    {
+     "char": "🥭",
+     "name": "Mango",
+     "keywords": "mango"
+    },
+    {
+     "char": "🥮",
+     "name": "Moon Cake",
+     "keywords": "moon cake"
+    },
+    {
+     "char": "🥯",
+     "name": "Bagel",
+     "keywords": "bagel"
+    },
+    {
+     "char": "🧀",
+     "name": "Cheese Wedge",
+     "keywords": "cheese wedge"
+    },
+    {
+     "char": "🧁",
+     "name": "Cupcake",
+     "keywords": "cupcake"
+    },
+    {
+     "char": "🧂",
+     "name": "Salt Shaker",
+     "keywords": "salt shaker"
+    },
+    {
+     "char": "🧃",
+     "name": "Beverage Box",
+     "keywords": "beverage box"
+    },
+    {
+     "char": "🧄",
+     "name": "Garlic",
+     "keywords": "garlic"
+    },
+    {
+     "char": "🧅",
+     "name": "Onion",
+     "keywords": "onion"
+    },
+    {
+     "char": "🧆",
+     "name": "Falafel",
+     "keywords": "falafel"
+    },
+    {
+     "char": "🧇",
+     "name": "Waffle",
+     "keywords": "waffle"
+    },
+    {
+     "char": "🧈",
+     "name": "Butter",
+     "keywords": "butter"
+    },
+    {
+     "char": "🧉",
+     "name": "Mate Drink",
+     "keywords": "mate drink"
+    },
+    {
+     "char": "🧊",
+     "name": "Ice Cube",
+     "keywords": "ice cube"
+    },
+    {
+     "char": "🧋",
+     "name": "Bubble Tea",
+     "keywords": "bubble tea"
+    },
+    {
+     "char": "🫐",
+     "name": "Blueberries",
+     "keywords": "blueberries"
+    },
+    {
+     "char": "🫑",
+     "name": "Bell Pepper",
+     "keywords": "bell pepper"
+    },
+    {
+     "char": "🫒",
+     "name": "Olive",
+     "keywords": "olive"
+    },
+    {
+     "char": "🫓",
+     "name": "Flatbread",
+     "keywords": "flatbread"
+    },
+    {
+     "char": "🫔",
+     "name": "Tamale",
+     "keywords": "tamale"
+    },
+    {
+     "char": "🫕",
+     "name": "Fondue",
+     "keywords": "fondue"
+    },
+    {
+     "char": "🫖",
+     "name": "Teapot",
+     "keywords": "teapot"
+    }
+   ]
+  },
+  {
+   "name": "Travel & Places",
+   "emoji": [
+    {
+     "char": "🚀",
+     "name": "Rocket",
+     "keywords": "rocket"
+    },
+    {
+     "char": "🚁",
+     "name": "Helicopter",
+     "keywords": "helicopter"
+    },
+    {
+     "char": "🚂",
+     "name": "Steam Locomotive",
+     "keywords": "steam locomotive"
+    },
+    {
+     "char": "🚃",
+     "name": "Railway Car",
+     "keywords": "railway car"
+    },
+    {
+     "char": "🚄",
+     "name": "High-Speed Train",
+     "keywords": "high speed train"
+    },
+    {
+     "char": "🚅",
+     "name": "High-Speed Train With Bullet Nose",
+     "keywords": "high speed train with bullet nose"
+    },
+    {
+     "char": "🚆",
+     "name": "Train",
+     "keywords": "train"
+    },
+    {
+     "char": "🚇",
+     "name": "Metro",
+     "keywords": "metro"
+    },
+    {
+     "char": "🚈",
+     "name": "Light Rail",
+     "keywords": "light rail"
+    },
+    {
+     "char": "🚉",
+     "name": "Station",
+     "keywords": "station"
+    },
+    {
+     "char": "🚊",
+     "name": "Tram",
+     "keywords": "tram"
+    },
+    {
+     "char": "🚋",
+     "name": "Tram Car",
+     "keywords": "tram car"
+    },
+    {
+     "char": "🚌",
+     "name": "Bus",
+     "keywords": "bus"
+    },
+    {
+     "char": "🚍",
+     "name": "Oncoming Bus",
+     "keywords": "oncoming bus"
+    },
+    {
+     "char": "🚎",
+     "name": "Trolleybus",
+     "keywords": "trolleybus"
+    },
+    {
+     "char": "🚏",
+     "name": "Bus Stop",
+     "keywords": "bus stop"
+    },
+    {
+     "char": "🚐",
+     "name": "Minibus",
+     "keywords": "minibus"
+    },
+    {
+     "char": "🚑",
+     "name": "Ambulance",
+     "keywords": "ambulance"
+    },
+    {
+     "char": "🚒",
+     "name": "Fire Engine",
+     "keywords": "fire engine"
+    },
+    {
+     "char": "🚓",
+     "name": "Police Car",
+     "keywords": "police car"
+    },
+    {
+     "char": "🚔",
+     "name": "Oncoming Police Car",
+     "keywords": "oncoming police car"
+    },
+    {
+     "char": "🚕",
+     "name": "Taxi",
+     "keywords": "taxi"
+    },
+    {
+     "char": "🚖",
+     "name": "Oncoming Taxi",
+     "keywords": "oncoming taxi"
+    },
+    {
+     "char": "🚗",
+     "name": "Automobile",
+     "keywords": "automobile"
+    },
+    {
+     "char": "🚘",
+     "name": "Oncoming Automobile",
+     "keywords": "oncoming automobile"
+    },
+    {
+     "char": "🚙",
+     "name": "Recreational Vehicle",
+     "keywords": "recreational vehicle"
+    },
+    {
+     "char": "🚚",
+     "name": "Delivery Truck",
+     "keywords": "delivery truck"
+    },
+    {
+     "char": "🚛",
+     "name": "Articulated Lorry",
+     "keywords": "articulated lorry"
+    },
+    {
+     "char": "🚜",
+     "name": "Tractor",
+     "keywords": "tractor"
+    },
+    {
+     "char": "🚝",
+     "name": "Monorail",
+     "keywords": "monorail"
+    },
+    {
+     "char": "🚞",
+     "name": "Mountain Railway",
+     "keywords": "mountain railway"
+    },
+    {
+     "char": "🚟",
+     "name": "Suspension Railway",
+     "keywords": "suspension railway"
+    },
+    {
+     "char": "🚠",
+     "name": "Mountain Cableway",
+     "keywords": "mountain cableway"
+    },
+    {
+     "char": "🚡",
+     "name": "Aerial Tramway",
+     "keywords": "aerial tramway"
+    },
+    {
+     "char": "🚢",
+     "name": "Ship",
+     "keywords": "ship"
+    },
+    {
+     "char": "🚣",
+     "name": "Rowboat",
+     "keywords": "rowboat"
+    },
+    {
+     "char": "🚤",
+     "name": "Speedboat",
+     "keywords": "speedboat"
+    },
+    {
+     "char": "🚥",
+     "name": "Horizontal Traffic Light",
+     "keywords": "horizontal traffic light"
+    },
+    {
+     "char": "🚦",
+     "name": "Vertical Traffic Light",
+     "keywords": "vertical traffic light"
+    },
+    {
+     "char": "🚧",
+     "name": "Construction Sign",
+     "keywords": "construction"
+    },
+    {
+     "char": "🚨",
+     "name": "Police Cars Revolving Light",
+     "keywords": "police cars revolving light"
+    },
+    {
+     "char": "🚩",
+     "name": "Triangular Flag On Post",
+     "keywords": "triangular flag on post"
+    },
+    {
+     "char": "🚪",
+     "name": "Door",
+     "keywords": "door"
+    },
+    {
+     "char": "🚫",
+     "name": "No Entry Sign",
+     "keywords": "no entry"
+    },
+    {
+     "char": "🚬",
+     "name": "Smoking Symbol",
+     "keywords": "smoking"
+    },
+    {
+     "char": "🚭",
+     "name": "No Smoking Symbol",
+     "keywords": "no smoking"
+    },
+    {
+     "char": "🚮",
+     "name": "Put Litter In Its Place Symbol",
+     "keywords": "put litter in its place"
+    },
+    {
+     "char": "🚯",
+     "name": "Do Not Litter Symbol",
+     "keywords": "do not litter"
+    },
+    {
+     "char": "🚰",
+     "name": "Potable Water Symbol",
+     "keywords": "potable water"
+    },
+    {
+     "char": "🚱",
+     "name": "Non-Potable Water Symbol",
+     "keywords": "non potable water"
+    },
+    {
+     "char": "🚲",
+     "name": "Bicycle",
+     "keywords": "bicycle"
+    },
+    {
+     "char": "🚳",
+     "name": "No Bicycles",
+     "keywords": "no bicycles"
+    },
+    {
+     "char": "🚴",
+     "name": "Bicyclist",
+     "keywords": "bicyclist"
+    },
+    {
+     "char": "🚵",
+     "name": "Mountain Bicyclist",
+     "keywords": "mountain bicyclist"
+    },
+    {
+     "char": "🚶",
+     "name": "Pedestrian",
+     "keywords": "pedestrian"
+    },
+    {
+     "char": "🚷",
+     "name": "No Pedestrians",
+     "keywords": "no pedestrians"
+    },
+    {
+     "char": "🚸",
+     "name": "Children Crossing",
+     "keywords": "children crossing"
+    },
+    {
+     "char": "🚹",
+     "name": "Mens Symbol",
+     "keywords": "mens"
+    },
+    {
+     "char": "🚺",
+     "name": "Womens Symbol",
+     "keywords": "womens"
+    },
+    {
+     "char": "🚻",
+     "name": "Restroom",
+     "keywords": "restroom"
+    },
+    {
+     "char": "🚼",
+     "name": "Baby Symbol",
+     "keywords": "baby"
+    },
+    {
+     "char": "🚽",
+     "name": "Toilet",
+     "keywords": "toilet"
+    },
+    {
+     "char": "🚾",
+     "name": "Water Closet",
+     "keywords": "water closet"
+    },
+    {
+     "char": "🚿",
+     "name": "Shower",
+     "keywords": "shower"
+    },
+    {
+     "char": "🛀",
+     "name": "Bath",
+     "keywords": "bath"
+    },
+    {
+     "char": "🛁",
+     "name": "Bathtub",
+     "keywords": "bathtub"
+    },
+    {
+     "char": "🛂",
+     "name": "Passport Control",
+     "keywords": "passport control"
+    },
+    {
+     "char": "🛃",
+     "name": "Customs",
+     "keywords": "customs"
+    },
+    {
+     "char": "🛄",
+     "name": "Baggage Claim",
+     "keywords": "baggage claim"
+    },
+    {
+     "char": "🛅",
+     "name": "Left Luggage",
+     "keywords": "left luggage"
+    },
+    {
+     "char": "🌍",
+     "name": "Earth Globe Europe-Africa",
+     "keywords": "earth globe europe africa"
+    },
+    {
+     "char": "🌎",
+     "name": "Earth Globe Americas",
+     "keywords": "earth globe americas"
+    },
+    {
+     "char": "🌏",
+     "name": "Earth Globe Asia-Australia",
+     "keywords": "earth globe asia australia"
+    },
+    {
+     "char": "🌐",
+     "name": "Globe With Meridians",
+     "keywords": "globe with meridians"
+    },
+    {
+     "char": "🌑",
+     "name": "New Moon Symbol",
+     "keywords": "new moon"
+    },
+    {
+     "char": "🌒",
+     "name": "Waxing Crescent Moon Symbol",
+     "keywords": "waxing crescent moon"
+    },
+    {
+     "char": "🌓",
+     "name": "First Quarter Moon Symbol",
+     "keywords": "first quarter moon"
+    },
+    {
+     "char": "🌔",
+     "name": "Waxing Gibbous Moon Symbol",
+     "keywords": "waxing gibbous moon"
+    },
+    {
+     "char": "🌕",
+     "name": "Full Moon Symbol",
+     "keywords": "full moon"
+    },
+    {
+     "char": "🌖",
+     "name": "Waning Gibbous Moon Symbol",
+     "keywords": "waning gibbous moon"
+    },
+    {
+     "char": "🌗",
+     "name": "Last Quarter Moon Symbol",
+     "keywords": "last quarter moon"
+    },
+    {
+     "char": "🌘",
+     "name": "Waning Crescent Moon Symbol",
+     "keywords": "waning crescent moon"
+    },
+    {
+     "char": "🌙",
+     "name": "Crescent Moon",
+     "keywords": "crescent moon"
+    },
+    {
+     "char": "🌚",
+     "name": "New Moon With Face",
+     "keywords": "new moon with face"
+    },
+    {
+     "char": "🌛",
+     "name": "First Quarter Moon With Face",
+     "keywords": "first quarter moon with face"
+    },
+    {
+     "char": "🌜",
+     "name": "Last Quarter Moon With Face",
+     "keywords": "last quarter moon with face"
+    },
+    {
+     "char": "🌝",
+     "name": "Full Moon With Face",
+     "keywords": "full moon with face"
+    },
+    {
+     "char": "🌞",
+     "name": "Sun With Face",
+     "keywords": "sun with face"
+    },
+    {
+     "char": "🌟",
+     "name": "Glowing Star",
+     "keywords": "glowing star"
+    },
+    {
+     "char": "🌠",
+     "name": "Shooting Star",
+     "keywords": "shooting star"
+    },
+    {
+     "char": "🏔",
+     "name": "Snow Capped Mountain",
+     "keywords": "snow capped mountain"
+    },
+    {
+     "char": "🏕",
+     "name": "Camping",
+     "keywords": "camping"
+    },
+    {
+     "char": "🏖",
+     "name": "Beach With Umbrella",
+     "keywords": "beach with umbrella"
+    },
+    {
+     "char": "🏗",
+     "name": "Building Construction",
+     "keywords": "building construction"
+    },
+    {
+     "char": "🏘",
+     "name": "House Buildings",
+     "keywords": "house buildings"
+    },
+    {
+     "char": "🏙",
+     "name": "Cityscape",
+     "keywords": "cityscape"
+    },
+    {
+     "char": "🏚",
+     "name": "Derelict House Building",
+     "keywords": "derelict house building"
+    },
+    {
+     "char": "🏛",
+     "name": "Classical Building",
+     "keywords": "classical building"
+    },
+    {
+     "char": "🏜",
+     "name": "Desert",
+     "keywords": "desert"
+    },
+    {
+     "char": "🏝",
+     "name": "Desert Island",
+     "keywords": "desert island"
+    },
+    {
+     "char": "🏞",
+     "name": "National Park",
+     "keywords": "national park"
+    },
+    {
+     "char": "🏟",
+     "name": "Stadium",
+     "keywords": "stadium"
+    },
+    {
+     "char": "🏠",
+     "name": "House Building",
+     "keywords": "house building"
+    },
+    {
+     "char": "🏡",
+     "name": "House With Garden",
+     "keywords": "house with garden"
+    },
+    {
+     "char": "🏢",
+     "name": "Office Building",
+     "keywords": "office building"
+    },
+    {
+     "char": "🏣",
+     "name": "Japanese Post Office",
+     "keywords": "japanese post office"
+    },
+    {
+     "char": "🏤",
+     "name": "European Post Office",
+     "keywords": "european post office"
+    },
+    {
+     "char": "🏥",
+     "name": "Hospital",
+     "keywords": "hospital"
+    },
+    {
+     "char": "🏦",
+     "name": "Bank",
+     "keywords": "bank"
+    },
+    {
+     "char": "🏧",
+     "name": "Automated Teller Machine",
+     "keywords": "automated teller machine"
+    },
+    {
+     "char": "🏨",
+     "name": "Hotel",
+     "keywords": "hotel"
+    },
+    {
+     "char": "🏩",
+     "name": "Love Hotel",
+     "keywords": "love hotel"
+    },
+    {
+     "char": "🏪",
+     "name": "Convenience Store",
+     "keywords": "convenience store"
+    },
+    {
+     "char": "🏫",
+     "name": "School",
+     "keywords": "school"
+    },
+    {
+     "char": "🏬",
+     "name": "Department Store",
+     "keywords": "department store"
+    },
+    {
+     "char": "🏭",
+     "name": "Factory",
+     "keywords": "factory"
+    },
+    {
+     "char": "🏮",
+     "name": "Izakaya Lantern",
+     "keywords": "izakaya lantern"
+    },
+    {
+     "char": "🏯",
+     "name": "Japanese Castle",
+     "keywords": "japanese castle"
+    },
+    {
+     "char": "🏰",
+     "name": "European Castle",
+     "keywords": "european castle"
+    },
+    {
+     "char": "🗺",
+     "name": "World Map",
+     "keywords": "world map"
+    },
+    {
+     "char": "🗻",
+     "name": "Mount Fuji",
+     "keywords": "mount fuji"
+    },
+    {
+     "char": "🗼",
+     "name": "Tokyo Tower",
+     "keywords": "tokyo tower"
+    },
+    {
+     "char": "🗽",
+     "name": "Statue Of Liberty",
+     "keywords": "statue of liberty"
+    },
+    {
+     "char": "🗾",
+     "name": "Silhouette Of Japan",
+     "keywords": "silhouette of japan"
+    },
+    {
+     "char": "🗿",
+     "name": "Moyai",
+     "keywords": "moyai"
+    },
+    {
+     "char": "⛰️",
+     "name": "Mountain",
+     "keywords": "mountain"
+    },
+    {
+     "char": "⛱️",
+     "name": "Umbrella On Ground",
+     "keywords": "umbrella on ground"
+    },
+    {
+     "char": "⛲️",
+     "name": "Fountain",
+     "keywords": "fountain"
+    },
+    {
+     "char": "⛳️",
+     "name": "Flag In Hole",
+     "keywords": "flag in hole"
+    },
+    {
+     "char": "⛴️",
+     "name": "Ferry",
+     "keywords": "ferry"
+    },
+    {
+     "char": "⛵️",
+     "name": "Sailboat",
+     "keywords": "sailboat"
+    },
+    {
+     "char": "✈️",
+     "name": "Airplane",
+     "keywords": "airplane"
+    }
+   ]
+  },
+  {
+   "name": "Activities",
+   "emoji": [
+    {
+     "char": "🎠",
+     "name": "Carousel Horse",
+     "keywords": "carousel horse"
+    },
+    {
+     "char": "🎡",
+     "name": "Ferris Wheel",
+     "keywords": "ferris wheel"
+    },
+    {
+     "char": "🎢",
+     "name": "Roller Coaster",
+     "keywords": "roller coaster"
+    },
+    {
+     "char": "🎣",
+     "name": "Fishing Pole And Fish",
+     "keywords": "fishing pole and fish"
+    },
+    {
+     "char": "🎤",
+     "name": "Microphone",
+     "keywords": "microphone"
+    },
+    {
+     "char": "🎥",
+     "name": "Movie Camera",
+     "keywords": "movie camera"
+    },
+    {
+     "char": "🎦",
+     "name": "Cinema",
+     "keywords": "cinema"
+    },
+    {
+     "char": "🎧",
+     "name": "Headphone",
+     "keywords": "headphone"
+    },
+    {
+     "char": "🎨",
+     "name": "Artist Palette",
+     "keywords": "artist palette"
+    },
+    {
+     "char": "🎩",
+     "name": "Top Hat",
+     "keywords": "top hat"
+    },
+    {
+     "char": "🎪",
+     "name": "Circus Tent",
+     "keywords": "circus tent"
+    },
+    {
+     "char": "🎫",
+     "name": "Ticket",
+     "keywords": "ticket"
+    },
+    {
+     "char": "🎬",
+     "name": "Clapper Board",
+     "keywords": "clapper board"
+    },
+    {
+     "char": "🎭",
+     "name": "Performing Arts",
+     "keywords": "performing arts"
+    },
+    {
+     "char": "🎮",
+     "name": "Video Game",
+     "keywords": "video game"
+    },
+    {
+     "char": "🎯",
+     "name": "Direct Hit",
+     "keywords": "direct hit"
+    },
+    {
+     "char": "🎰",
+     "name": "Slot Machine",
+     "keywords": "slot machine"
+    },
+    {
+     "char": "🎱",
+     "name": "Billiards",
+     "keywords": "billiards"
+    },
+    {
+     "char": "🎲",
+     "name": "Game Die",
+     "keywords": "game die"
+    },
+    {
+     "char": "🎳",
+     "name": "Bowling",
+     "keywords": "bowling"
+    },
+    {
+     "char": "🎴",
+     "name": "Flower Playing Cards",
+     "keywords": "flower playing cards"
+    },
+    {
+     "char": "🎵",
+     "name": "Musical Note",
+     "keywords": "musical note"
+    },
+    {
+     "char": "🎶",
+     "name": "Multiple Musical Notes",
+     "keywords": "multiple musical notes"
+    },
+    {
+     "char": "🎷",
+     "name": "Saxophone",
+     "keywords": "saxophone"
+    },
+    {
+     "char": "🎸",
+     "name": "Guitar",
+     "keywords": "guitar"
+    },
+    {
+     "char": "🎹",
+     "name": "Musical Keyboard",
+     "keywords": "musical keyboard"
+    },
+    {
+     "char": "🎺",
+     "name": "Trumpet",
+     "keywords": "trumpet"
+    },
+    {
+     "char": "🎻",
+     "name": "Violin",
+     "keywords": "violin"
+    },
+    {
+     "char": "🎼",
+     "name": "Musical Score",
+     "keywords": "musical score"
+    },
+    {
+     "char": "🎽",
+     "name": "Running Shirt With Sash",
+     "keywords": "running shirt with sash"
+    },
+    {
+     "char": "🎾",
+     "name": "Tennis Racquet And Ball",
+     "keywords": "tennis racquet and ball"
+    },
+    {
+     "char": "🎿",
+     "name": "Ski And Ski Boot",
+     "keywords": "ski and ski boot"
+    },
+    {
+     "char": "🏀",
+     "name": "Basketball And Hoop",
+     "keywords": "basketball and hoop"
+    },
+    {
+     "char": "🏁",
+     "name": "Chequered Flag",
+     "keywords": "chequered flag"
+    },
+    {
+     "char": "🏂",
+     "name": "Snowboarder",
+     "keywords": "snowboarder"
+    },
+    {
+     "char": "🏃",
+     "name": "Runner",
+     "keywords": "runner"
+    },
+    {
+     "char": "🏄",
+     "name": "Surfer",
+     "keywords": "surfer"
+    },
+    {
+     "char": "🏅",
+     "name": "Sports Medal",
+     "keywords": "sports medal"
+    },
+    {
+     "char": "🏆",
+     "name": "Trophy",
+     "keywords": "trophy"
+    },
+    {
+     "char": "🏇",
+     "name": "Horse Racing",
+     "keywords": "horse racing"
+    },
+    {
+     "char": "🏈",
+     "name": "American Football",
+     "keywords": "american football"
+    },
+    {
+     "char": "🏉",
+     "name": "Rugby Football",
+     "keywords": "rugby football"
+    },
+    {
+     "char": "🏊",
+     "name": "Swimmer",
+     "keywords": "swimmer"
+    },
+    {
+     "char": "🏏",
+     "name": "Cricket Bat And Ball",
+     "keywords": "cricket bat and ball"
+    },
+    {
+     "char": "🏐",
+     "name": "Volleyball",
+     "keywords": "volleyball"
+    },
+    {
+     "char": "🏑",
+     "name": "Field Hockey Stick And Ball",
+     "keywords": "field hockey stick and ball"
+    },
+    {
+     "char": "🏒",
+     "name": "Ice Hockey Stick And Puck",
+     "keywords": "ice hockey stick and puck"
+    },
+    {
+     "char": "🏓",
+     "name": "Table Tennis Paddle And Ball",
+     "keywords": "table tennis paddle and ball"
+    },
+    {
+     "char": "🥅",
+     "name": "Goal Net",
+     "keywords": "goal net"
+    },
+    {
+     "char": "🥆",
+     "name": "Rifle",
+     "keywords": "rifle"
+    },
+    {
+     "char": "🥇",
+     "name": "First Place Medal",
+     "keywords": "first place medal"
+    },
+    {
+     "char": "🥈",
+     "name": "Second Place Medal",
+     "keywords": "second place medal"
+    },
+    {
+     "char": "🥉",
+     "name": "Third Place Medal",
+     "keywords": "third place medal"
+    },
+    {
+     "char": "🥊",
+     "name": "Boxing Glove",
+     "keywords": "boxing glove"
+    },
+    {
+     "char": "🥋",
+     "name": "Martial Arts Uniform",
+     "keywords": "martial arts uniform"
+    },
+    {
+     "char": "🥌",
+     "name": "Curling Stone",
+     "keywords": "curling stone"
+    },
+    {
+     "char": "⚽️",
+     "name": "Soccer Ball",
+     "keywords": "soccer ball"
+    },
+    {
+     "char": "⚾️",
+     "name": "Baseball",
+     "keywords": "baseball"
+    },
+    {
+     "char": "🎖",
+     "name": "Military Medal",
+     "keywords": "military medal"
+    },
+    {
+     "char": "🎗",
+     "name": "Reminder Ribbon",
+     "keywords": "reminder ribbon"
+    },
+    {
+     "char": "🎘",
+     "name": "Musical Keyboard With Jacks",
+     "keywords": "musical keyboard with jacks"
+    },
+    {
+     "char": "🎙",
+     "name": "Studio Microphone",
+     "keywords": "studio microphone"
+    },
+    {
+     "char": "🎚",
+     "name": "Level Slider",
+     "keywords": "level slider"
+    },
+    {
+     "char": "🎛",
+     "name": "Control Knobs",
+     "keywords": "control knobs"
+    },
+    {
+     "char": "🎜",
+     "name": "Beamed Ascending Musical Notes",
+     "keywords": "beamed ascending musical notes"
+    },
+    {
+     "char": "🎝",
+     "name": "Beamed Descending Musical Notes",
+     "keywords": "beamed descending musical notes"
+    },
+    {
+     "char": "🎞",
+     "name": "Film Frames",
+     "keywords": "film frames"
+    },
+    {
+     "char": "🎟",
+     "name": "Admission Tickets",
+     "keywords": "admission tickets"
+    },
+    {
+     "char": "🥍",
+     "name": "Lacrosse Stick And Ball",
+     "keywords": "lacrosse stick and ball"
+    },
+    {
+     "char": "🥎",
+     "name": "Softball",
+     "keywords": "softball"
+    },
+    {
+     "char": "🥏",
+     "name": "Flying Disc",
+     "keywords": "flying disc"
+    }
+   ]
+  },
+  {
+   "name": "Objects",
+   "emoji": [
+    {
+     "char": "💡",
+     "name": "Electric Light Bulb",
+     "keywords": "electric light bulb"
+    },
+    {
+     "char": "💢",
+     "name": "Anger Symbol",
+     "keywords": "anger"
+    },
+    {
+     "char": "💣",
+     "name": "Bomb",
+     "keywords": "bomb"
+    },
+    {
+     "char": "💤",
+     "name": "Sleeping Symbol",
+     "keywords": "sleeping"
+    },
+    {
+     "char": "💥",
+     "name": "Collision Symbol",
+     "keywords": "collision"
+    },
+    {
+     "char": "💦",
+     "name": "Splashing Sweat Symbol",
+     "keywords": "splashing sweat"
+    },
+    {
+     "char": "💧",
+     "name": "Droplet",
+     "keywords": "droplet"
+    },
+    {
+     "char": "💨",
+     "name": "Dash Symbol",
+     "keywords": "dash"
+    },
+    {
+     "char": "💩",
+     "name": "Pile Of Poo",
+     "keywords": "pile of poo"
+    },
+    {
+     "char": "💪",
+     "name": "Flexed Biceps",
+     "keywords": "flexed biceps"
+    },
+    {
+     "char": "💫",
+     "name": "Dizzy Symbol",
+     "keywords": "dizzy"
+    },
+    {
+     "char": "💬",
+     "name": "Speech Balloon",
+     "keywords": "speech balloon"
+    },
+    {
+     "char": "💭",
+     "name": "Thought Balloon",
+     "keywords": "thought balloon"
+    },
+    {
+     "char": "💮",
+     "name": "White Flower",
+     "keywords": "white flower"
+    },
+    {
+     "char": "💯",
+     "name": "Hundred Points Symbol",
+     "keywords": "hundred points"
+    },
+    {
+     "char": "💰",
+     "name": "Money Bag",
+     "keywords": "money bag"
+    },
+    {
+     "char": "💱",
+     "name": "Currency Exchange",
+     "keywords": "currency exchange"
+    },
+    {
+     "char": "💲",
+     "name": "Heavy Dollar Sign",
+     "keywords": "heavy dollar"
+    },
+    {
+     "char": "💳",
+     "name": "Credit Card",
+     "keywords": "credit card"
+    },
+    {
+     "char": "💴",
+     "name": "Banknote With Yen Sign",
+     "keywords": "banknote with yen"
+    },
+    {
+     "char": "💵",
+     "name": "Banknote With Dollar Sign",
+     "keywords": "banknote with dollar"
+    },
+    {
+     "char": "💶",
+     "name": "Banknote With Euro Sign",
+     "keywords": "banknote with euro"
+    },
+    {
+     "char": "💷",
+     "name": "Banknote With Pound Sign",
+     "keywords": "banknote with pound"
+    },
+    {
+     "char": "💸",
+     "name": "Money With Wings",
+     "keywords": "money with wings"
+    },
+    {
+     "char": "💹",
+     "name": "Chart With Upwards Trend And Yen Sign",
+     "keywords": "chart with upwards trend and yen"
+    },
+    {
+     "char": "💺",
+     "name": "Seat",
+     "keywords": "seat"
+    },
+    {
+     "char": "💻",
+     "name": "Personal Computer",
+     "keywords": "personal computer"
+    },
+    {
+     "char": "💼",
+     "name": "Briefcase",
+     "keywords": "briefcase"
+    },
+    {
+     "char": "💽",
+     "name": "Minidisc",
+     "keywords": "minidisc"
+    },
+    {
+     "char": "💾",
+     "name": "Floppy Disk",
+     "keywords": "floppy disk"
+    },
+    {
+     "char": "💿",
+     "name": "Optical Disc",
+     "keywords": "optical disc"
+    },
+    {
+     "char": "📀",
+     "name": "Dvd",
+     "keywords": "dvd"
+    },
+    {
+     "char": "📁",
+     "name": "File Folder",
+     "keywords": "file folder"
+    },
+    {
+     "char": "📂",
+     "name": "Open File Folder",
+     "keywords": "open file folder"
+    },
+    {
+     "char": "📃",
+     "name": "Page With Curl",
+     "keywords": "page with curl"
+    },
+    {
+     "char": "📄",
+     "name": "Page Facing Up",
+     "keywords": "page facing up"
+    },
+    {
+     "char": "📅",
+     "name": "Calendar",
+     "keywords": "calendar"
+    },
+    {
+     "char": "📆",
+     "name": "Tear-Off Calendar",
+     "keywords": "tear off calendar"
+    },
+    {
+     "char": "📇",
+     "name": "Card Index",
+     "keywords": "card index"
+    },
+    {
+     "char": "📈",
+     "name": "Chart With Upwards Trend",
+     "keywords": "chart with upwards trend"
+    },
+    {
+     "char": "📉",
+     "name": "Chart With Downwards Trend",
+     "keywords": "chart with downwards trend"
+    },
+    {
+     "char": "📊",
+     "name": "Bar Chart",
+     "keywords": "bar chart"
+    },
+    {
+     "char": "📋",
+     "name": "Clipboard",
+     "keywords": "clipboard"
+    },
+    {
+     "char": "📌",
+     "name": "Pushpin",
+     "keywords": "pushpin"
+    },
+    {
+     "char": "📍",
+     "name": "Round Pushpin",
+     "keywords": "round pushpin"
+    },
+    {
+     "char": "📎",
+     "name": "Paperclip",
+     "keywords": "paperclip"
+    },
+    {
+     "char": "📏",
+     "name": "Straight Ruler",
+     "keywords": "straight ruler"
+    },
+    {
+     "char": "📐",
+     "name": "Triangular Ruler",
+     "keywords": "triangular ruler"
+    },
+    {
+     "char": "📑",
+     "name": "Bookmark Tabs",
+     "keywords": "bookmark tabs"
+    },
+    {
+     "char": "📒",
+     "name": "Ledger",
+     "keywords": "ledger"
+    },
+    {
+     "char": "📓",
+     "name": "Notebook",
+     "keywords": "notebook"
+    },
+    {
+     "char": "📔",
+     "name": "Notebook With Decorative Cover",
+     "keywords": "notebook with decorative cover"
+    },
+    {
+     "char": "📕",
+     "name": "Closed Book",
+     "keywords": "closed book"
+    },
+    {
+     "char": "📖",
+     "name": "Open Book",
+     "keywords": "open book"
+    },
+    {
+     "char": "📗",
+     "name": "Green Book",
+     "keywords": "green book"
+    },
+    {
+     "char": "📘",
+     "name": "Blue Book",
+     "keywords": "blue book"
+    },
+    {
+     "char": "📙",
+     "name": "Orange Book",
+     "keywords": "orange book"
+    },
+    {
+     "char": "📚",
+     "name": "Books",
+     "keywords": "books"
+    },
+    {
+     "char": "📛",
+     "name": "Name Badge",
+     "keywords": "name badge"
+    },
+    {
+     "char": "📜",
+     "name": "Scroll",
+     "keywords": "scroll"
+    },
+    {
+     "char": "📝",
+     "name": "Memo",
+     "keywords": "memo"
+    },
+    {
+     "char": "📞",
+     "name": "Telephone Receiver",
+     "keywords": "telephone receiver"
+    },
+    {
+     "char": "📟",
+     "name": "Pager",
+     "keywords": "pager"
+    },
+    {
+     "char": "📠",
+     "name": "Fax Machine",
+     "keywords": "fax machine"
+    },
+    {
+     "char": "📡",
+     "name": "Satellite Antenna",
+     "keywords": "satellite antenna"
+    },
+    {
+     "char": "📢",
+     "name": "Public Address Loudspeaker",
+     "keywords": "public address loudspeaker"
+    },
+    {
+     "char": "📣",
+     "name": "Cheering Megaphone",
+     "keywords": "cheering megaphone"
+    },
+    {
+     "char": "📤",
+     "name": "Outbox Tray",
+     "keywords": "outbox tray"
+    },
+    {
+     "char": "📥",
+     "name": "Inbox Tray",
+     "keywords": "inbox tray"
+    },
+    {
+     "char": "📦",
+     "name": "Package",
+     "keywords": "package"
+    },
+    {
+     "char": "📧",
+     "name": "E-Mail Symbol",
+     "keywords": "e mail"
+    },
+    {
+     "char": "📨",
+     "name": "Incoming Envelope",
+     "keywords": "incoming envelope"
+    },
+    {
+     "char": "📩",
+     "name": "Envelope With Downwards Arrow Above",
+     "keywords": "envelope with downwards arrow above"
+    },
+    {
+     "char": "📪",
+     "name": "Closed Mailbox With Lowered Flag",
+     "keywords": "closed mailbox with lowered flag"
+    },
+    {
+     "char": "📫",
+     "name": "Closed Mailbox With Raised Flag",
+     "keywords": "closed mailbox with raised flag"
+    },
+    {
+     "char": "📬",
+     "name": "Open Mailbox With Raised Flag",
+     "keywords": "open mailbox with raised flag"
+    },
+    {
+     "char": "📭",
+     "name": "Open Mailbox With Lowered Flag",
+     "keywords": "open mailbox with lowered flag"
+    },
+    {
+     "char": "📮",
+     "name": "Postbox",
+     "keywords": "postbox"
+    },
+    {
+     "char": "📯",
+     "name": "Postal Horn",
+     "keywords": "postal horn"
+    },
+    {
+     "char": "📰",
+     "name": "Newspaper",
+     "keywords": "newspaper"
+    },
+    {
+     "char": "📱",
+     "name": "Mobile Phone",
+     "keywords": "mobile phone"
+    },
+    {
+     "char": "📲",
+     "name": "Mobile Phone With Rightwards Arrow At Left",
+     "keywords": "mobile phone with rightwards arrow at left"
+    },
+    {
+     "char": "📳",
+     "name": "Vibration Mode",
+     "keywords": "vibration mode"
+    },
+    {
+     "char": "📴",
+     "name": "Mobile Phone Off",
+     "keywords": "mobile phone off"
+    },
+    {
+     "char": "📵",
+     "name": "No Mobile Phones",
+     "keywords": "no mobile phones"
+    },
+    {
+     "char": "📶",
+     "name": "Antenna With Bars",
+     "keywords": "antenna with bars"
+    },
+    {
+     "char": "📷",
+     "name": "Camera",
+     "keywords": "camera"
+    },
+    {
+     "char": "📸",
+     "name": "Camera With Flash",
+     "keywords": "camera with flash"
+    },
+    {
+     "char": "📹",
+     "name": "Video Camera",
+     "keywords": "video camera"
+    },
+    {
+     "char": "📺",
+     "name": "Television",
+     "keywords": "television"
+    },
+    {
+     "char": "📻",
+     "name": "Radio",
+     "keywords": "radio"
+    },
+    {
+     "char": "📼",
+     "name": "Videocassette",
+     "keywords": "videocassette"
+    },
+    {
+     "char": "📽",
+     "name": "Film Projector",
+     "keywords": "film projector"
+    },
+    {
+     "char": "📾",
+     "name": "Portable Stereo",
+     "keywords": "portable stereo"
+    },
+    {
+     "char": "📿",
+     "name": "Prayer Beads",
+     "keywords": "prayer beads"
+    },
+    {
+     "char": "🔋",
+     "name": "Battery",
+     "keywords": "battery"
+    },
+    {
+     "char": "🔌",
+     "name": "Electric Plug",
+     "keywords": "electric plug"
+    },
+    {
+     "char": "🔍",
+     "name": "Left-Pointing Magnifying Glass",
+     "keywords": "left pointing magnifying glass"
+    },
+    {
+     "char": "🔎",
+     "name": "Right-Pointing Magnifying Glass",
+     "keywords": "right pointing magnifying glass"
+    },
+    {
+     "char": "🔏",
+     "name": "Lock With Ink Pen",
+     "keywords": "lock with ink pen"
+    },
+    {
+     "char": "🔐",
+     "name": "Closed Lock With Key",
+     "keywords": "closed lock with key"
+    },
+    {
+     "char": "🔑",
+     "name": "Key",
+     "keywords": "key"
+    },
+    {
+     "char": "🔒",
+     "name": "Lock",
+     "keywords": "lock"
+    },
+    {
+     "char": "🔓",
+     "name": "Open Lock",
+     "keywords": "open lock"
+    },
+    {
+     "char": "🔔",
+     "name": "Bell",
+     "keywords": "bell"
+    },
+    {
+     "char": "🔕",
+     "name": "Bell With Cancellation Stroke",
+     "keywords": "bell with cancellation stroke"
+    },
+    {
+     "char": "🔖",
+     "name": "Bookmark",
+     "keywords": "bookmark"
+    },
+    {
+     "char": "🔗",
+     "name": "Link Symbol",
+     "keywords": "link"
+    },
+    {
+     "char": "🔘",
+     "name": "Radio Button",
+     "keywords": "radio button"
+    },
+    {
+     "char": "🔙",
+     "name": "Back With Leftwards Arrow Above",
+     "keywords": "back with leftwards arrow above"
+    },
+    {
+     "char": "🔚",
+     "name": "End With Leftwards Arrow Above",
+     "keywords": "end with leftwards arrow above"
+    },
+    {
+     "char": "🔛",
+     "name": "On With Exclamation Mark With Left Right Arrow Above",
+     "keywords": "on with exclamation mark with left right arrow above"
+    },
+    {
+     "char": "🔜",
+     "name": "Soon With Rightwards Arrow Above",
+     "keywords": "soon with rightwards arrow above"
+    },
+    {
+     "char": "🔝",
+     "name": "Top With Upwards Arrow Above",
+     "keywords": "top with upwards arrow above"
+    },
+    {
+     "char": "🔞",
+     "name": "No One Under Eighteen Symbol",
+     "keywords": "no one under eighteen"
+    },
+    {
+     "char": "🔟",
+     "name": "Keycap Ten",
+     "keywords": "keycap ten"
+    },
+    {
+     "char": "🔠",
+     "name": "Input Symbol For Latin Capital Letters",
+     "keywords": "input for latin capital letters"
+    },
+    {
+     "char": "🔡",
+     "name": "Input Symbol For Latin Small Letters",
+     "keywords": "input for latin small letters"
+    },
+    {
+     "char": "🔢",
+     "name": "Input Symbol For Numbers",
+     "keywords": "input for numbers"
+    },
+    {
+     "char": "🔣",
+     "name": "Input Symbol For Symbols",
+     "keywords": "input for s"
+    },
+    {
+     "char": "🔤",
+     "name": "Input Symbol For Latin Letters",
+     "keywords": "input for latin letters"
+    },
+    {
+     "char": "🔥",
+     "name": "Fire",
+     "keywords": "fire"
+    },
+    {
+     "char": "🔦",
+     "name": "Electric Torch",
+     "keywords": "electric torch"
+    },
+    {
+     "char": "🔧",
+     "name": "Wrench",
+     "keywords": "wrench"
+    },
+    {
+     "char": "🔨",
+     "name": "Hammer",
+     "keywords": "hammer"
+    },
+    {
+     "char": "🔩",
+     "name": "Nut And Bolt",
+     "keywords": "nut and bolt"
+    },
+    {
+     "char": "🔪",
+     "name": "Hocho",
+     "keywords": "hocho"
+    },
+    {
+     "char": "🔫",
+     "name": "Pistol",
+     "keywords": "pistol"
+    },
+    {
+     "char": "🔬",
+     "name": "Microscope",
+     "keywords": "microscope"
+    },
+    {
+     "char": "🔭",
+     "name": "Telescope",
+     "keywords": "telescope"
+    },
+    {
+     "char": "🔮",
+     "name": "Crystal Ball",
+     "keywords": "crystal ball"
+    },
+    {
+     "char": "🔯",
+     "name": "Six Pointed Star With Middle Dot",
+     "keywords": "six pointed star with middle dot"
+    },
+    {
+     "char": "🔰",
+     "name": "Japanese Symbol For Beginner",
+     "keywords": "japanese for beginner"
+    },
+    {
+     "char": "🔱",
+     "name": "Trident Emblem",
+     "keywords": "trident emblem"
+    },
+    {
+     "char": "🔲",
+     "name": "Black Square Button",
+     "keywords": "black square button"
+    },
+    {
+     "char": "🔳",
+     "name": "White Square Button",
+     "keywords": "white square button"
+    },
+    {
+     "char": "🔴",
+     "name": "Large Red Circle",
+     "keywords": "large red circle"
+    },
+    {
+     "char": "🔵",
+     "name": "Large Blue Circle",
+     "keywords": "large blue circle"
+    },
+    {
+     "char": "🔶",
+     "name": "Large Orange Diamond",
+     "keywords": "large orange diamond"
+    },
+    {
+     "char": "🔷",
+     "name": "Large Blue Diamond",
+     "keywords": "large blue diamond"
+    },
+    {
+     "char": "🔸",
+     "name": "Small Orange Diamond",
+     "keywords": "small orange diamond"
+    },
+    {
+     "char": "🔹",
+     "name": "Small Blue Diamond",
+     "keywords": "small blue diamond"
+    },
+    {
+     "char": "🔺",
+     "name": "Up-Pointing Red Triangle",
+     "keywords": "up pointing red triangle"
+    },
+    {
+     "char": "🔻",
+     "name": "Down-Pointing Red Triangle",
+     "keywords": "down pointing red triangle"
+    },
+    {
+     "char": "🔼",
+     "name": "Up-Pointing Small Red Triangle",
+     "keywords": "up pointing small red triangle"
+    },
+    {
+     "char": "🔽",
+     "name": "Down-Pointing Small Red Triangle",
+     "keywords": "down pointing small red triangle"
+    },
+    {
+     "char": "🖥",
+     "name": "Desktop Computer",
+     "keywords": "desktop computer"
+    },
+    {
+     "char": "🖦",
+     "name": "Keyboard And Mouse",
+     "keywords": "keyboard and mouse"
+    },
+    {
+     "char": "🖧",
+     "name": "Three Networked Computers",
+     "keywords": "three networked computers"
+    },
+    {
+     "char": "🖨",
+     "name": "Printer",
+     "keywords": "printer"
+    },
+    {
+     "char": "🖩",
+     "name": "Pocket Calculator",
+     "keywords": "pocket calculator"
+    },
+    {
+     "char": "🖪",
+     "name": "Black Hard Shell Floppy Disk",
+     "keywords": "black hard shell floppy disk"
+    },
+    {
+     "char": "🖫",
+     "name": "White Hard Shell Floppy Disk",
+     "keywords": "white hard shell floppy disk"
+    },
+    {
+     "char": "🖬",
+     "name": "Soft Shell Floppy Disk",
+     "keywords": "soft shell floppy disk"
+    },
+    {
+     "char": "🖭",
+     "name": "Tape Cartridge",
+     "keywords": "tape cartridge"
+    },
+    {
+     "char": "🖮",
+     "name": "Wired Keyboard",
+     "keywords": "wired keyboard"
+    },
+    {
+     "char": "🖯",
+     "name": "One Button Mouse",
+     "keywords": "one button mouse"
+    },
+    {
+     "char": "🖰",
+     "name": "Two Button Mouse",
+     "keywords": "two button mouse"
+    },
+    {
+     "char": "🖱",
+     "name": "Three Button Mouse",
+     "keywords": "three button mouse"
+    },
+    {
+     "char": "🖲",
+     "name": "Trackball",
+     "keywords": "trackball"
+    },
+    {
+     "char": "🛠",
+     "name": "Hammer And Wrench",
+     "keywords": "hammer and wrench"
+    },
+    {
+     "char": "🛡",
+     "name": "Shield",
+     "keywords": "shield"
+    },
+    {
+     "char": "🛢",
+     "name": "Oil Drum",
+     "keywords": "oil drum"
+    },
+    {
+     "char": "🛣",
+     "name": "Motorway",
+     "keywords": "motorway"
+    },
+    {
+     "char": "🛤",
+     "name": "Railway Track",
+     "keywords": "railway track"
+    },
+    {
+     "char": "🛥",
+     "name": "Motor Boat",
+     "keywords": "motor boat"
+    },
+    {
+     "char": "🧰",
+     "name": "Toolbox",
+     "keywords": "toolbox"
+    },
+    {
+     "char": "🧱",
+     "name": "Brick",
+     "keywords": "brick"
+    },
+    {
+     "char": "🧲",
+     "name": "Magnet",
+     "keywords": "magnet"
+    },
+    {
+     "char": "🧳",
+     "name": "Luggage",
+     "keywords": "luggage"
+    },
+    {
+     "char": "🧴",
+     "name": "Lotion Bottle",
+     "keywords": "lotion bottle"
+    },
+    {
+     "char": "🧵",
+     "name": "Spool Of Thread",
+     "keywords": "spool of thread"
+    },
+    {
+     "char": "🧶",
+     "name": "Ball Of Yarn",
+     "keywords": "ball of yarn"
+    },
+    {
+     "char": "🧷",
+     "name": "Safety Pin",
+     "keywords": "safety pin"
+    },
+    {
+     "char": "🧸",
+     "name": "Teddy Bear",
+     "keywords": "teddy bear"
+    },
+    {
+     "char": "🧹",
+     "name": "Broom",
+     "keywords": "broom"
+    },
+    {
+     "char": "🧺",
+     "name": "Basket",
+     "keywords": "basket"
+    },
+    {
+     "char": "🧻",
+     "name": "Roll Of Paper",
+     "keywords": "roll of paper"
+    },
+    {
+     "char": "🧼",
+     "name": "Bar Of Soap",
+     "keywords": "bar of soap"
+    },
+    {
+     "char": "🧽",
+     "name": "Sponge",
+     "keywords": "sponge"
+    },
+    {
+     "char": "🧾",
+     "name": "Receipt",
+     "keywords": "receipt"
+    },
+    {
+     "char": "🧿",
+     "name": "Nazar Amulet",
+     "keywords": "nazar amulet"
+    },
+    {
+     "char": "⌚️",
+     "name": "Watch",
+     "keywords": "watch"
+    },
+    {
+     "char": "⌛️",
+     "name": "Hourglass",
+     "keywords": "hourglass"
+    },
+    {
+     "char": "🖇",
+     "name": "Linked Paperclips",
+     "keywords": "linked paperclips"
+    },
+    {
+     "char": "🖈",
+     "name": "Black Pushpin",
+     "keywords": "black pushpin"
+    },
+    {
+     "char": "🖉",
+     "name": "Lower Left Pencil",
+     "keywords": "lower left pencil"
+    },
+    {
+     "char": "🖊",
+     "name": "Lower Left Ballpoint Pen",
+     "keywords": "lower left ballpoint pen"
+    },
+    {
+     "char": "🖋",
+     "name": "Lower Left Fountain Pen",
+     "keywords": "lower left fountain pen"
+    },
+    {
+     "char": "🖌",
+     "name": "Lower Left Paintbrush",
+     "keywords": "lower left paintbrush"
+    },
+    {
+     "char": "🖍",
+     "name": "Lower Left Crayon",
+     "keywords": "lower left crayon"
+    },
+    {
+     "char": "✂️",
+     "name": "Black Scissors",
+     "keywords": "black scissors"
+    },
+    {
+     "char": "✏️",
+     "name": "Pencil",
+     "keywords": "pencil"
+    },
+    {
+     "char": "✐️",
+     "name": "Upper Right Pencil",
+     "keywords": "upper right pencil"
+    },
+    {
+     "char": "✑️",
+     "name": "White Nib",
+     "keywords": "white nib"
+    },
+    {
+     "char": "✒️",
+     "name": "Black Nib",
+     "keywords": "black nib"
+    }
+   ]
+  },
+  {
+   "name": "Symbols",
+   "emoji": [
+    {
+     "char": "❤️",
+     "name": "Heavy Black Heart",
+     "keywords": "heavy black heart"
+    },
+    {
+     "char": "💓",
+     "name": "Beating Heart",
+     "keywords": "beating heart"
+    },
+    {
+     "char": "💔",
+     "name": "Broken Heart",
+     "keywords": "broken heart"
+    },
+    {
+     "char": "💕",
+     "name": "Two Hearts",
+     "keywords": "two hearts"
+    },
+    {
+     "char": "💖",
+     "name": "Sparkling Heart",
+     "keywords": "sparkling heart"
+    },
+    {
+     "char": "💗",
+     "name": "Growing Heart",
+     "keywords": "growing heart"
+    },
+    {
+     "char": "💘",
+     "name": "Heart With Arrow",
+     "keywords": "heart with arrow"
+    },
+    {
+     "char": "💙",
+     "name": "Blue Heart",
+     "keywords": "blue heart"
+    },
+    {
+     "char": "💚",
+     "name": "Green Heart",
+     "keywords": "green heart"
+    },
+    {
+     "char": "💛",
+     "name": "Yellow Heart",
+     "keywords": "yellow heart"
+    },
+    {
+     "char": "💜",
+     "name": "Purple Heart",
+     "keywords": "purple heart"
+    },
+    {
+     "char": "💝",
+     "name": "Heart With Ribbon",
+     "keywords": "heart with ribbon"
+    },
+    {
+     "char": "💞",
+     "name": "Revolving Hearts",
+     "keywords": "revolving hearts"
+    },
+    {
+     "char": "💟",
+     "name": "Heart Decoration",
+     "keywords": "heart decoration"
+    },
+    {
+     "char": "💠",
+     "name": "Diamond Shape With A Dot Inside",
+     "keywords": "diamond shape with a dot inside"
+    },
+    {
+     "char": "🔀",
+     "name": "Twisted Rightwards Arrows",
+     "keywords": "twisted rightwards arrows"
+    },
+    {
+     "char": "🔁",
+     "name": "Clockwise Rightwards And Leftwards Open Circle Arrows",
+     "keywords": "clockwise rightwards and leftwards open circle arrows"
+    },
+    {
+     "char": "🔂",
+     "name": "Clockwise Rightwards And Leftwards Open Circle Arrows With Circled One Overlay",
+     "keywords": "clockwise rightwards and leftwards open circle arrows with circled one overlay"
+    },
+    {
+     "char": "🔃",
+     "name": "Clockwise Downwards And Upwards Open Circle Arrows",
+     "keywords": "clockwise downwards and upwards open circle arrows"
+    },
+    {
+     "char": "🔄",
+     "name": "Anticlockwise Downwards And Upwards Open Circle Arrows",
+     "keywords": "anticlockwise downwards and upwards open circle arrows"
+    },
+    {
+     "char": "🔅",
+     "name": "Low Brightness Symbol",
+     "keywords": "low brightness"
+    },
+    {
+     "char": "🔆",
+     "name": "High Brightness Symbol",
+     "keywords": "high brightness"
+    },
+    {
+     "char": "🔇",
+     "name": "Speaker With Cancellation Stroke",
+     "keywords": "speaker with cancellation stroke"
+    },
+    {
+     "char": "🔈",
+     "name": "Speaker",
+     "keywords": "speaker"
+    },
+    {
+     "char": "🔉",
+     "name": "Speaker With One Sound Wave",
+     "keywords": "speaker with one sound wave"
+    },
+    {
+     "char": "🔊",
+     "name": "Speaker With Three Sound Waves",
+     "keywords": "speaker with three sound waves"
+    },
+    {
+     "char": "✅️",
+     "name": "White Heavy Check Mark",
+     "keywords": "white heavy check mark"
+    },
+    {
+     "char": "❌️",
+     "name": "Cross Mark",
+     "keywords": "cross mark"
+    },
+    {
+     "char": "❍️",
+     "name": "Shadowed White Circle",
+     "keywords": "shadowed white circle"
+    },
+    {
+     "char": "❎️",
+     "name": "Negative Squared Cross Mark",
+     "keywords": "negative squared cross mark"
+    },
+    {
+     "char": "➕️",
+     "name": "Heavy Plus Sign",
+     "keywords": "heavy plus"
+    },
+    {
+     "char": "➖️",
+     "name": "Heavy Minus Sign",
+     "keywords": "heavy minus"
+    },
+    {
+     "char": "➗️",
+     "name": "Heavy Division Sign",
+     "keywords": "heavy division"
+    },
+    {
+     "char": "✔️",
+     "name": "Heavy Check Mark",
+     "keywords": "heavy check mark"
+    },
+    {
+     "char": "✕️",
+     "name": "Multiplication X",
+     "keywords": "multiplication x"
+    },
+    {
+     "char": "✖️",
+     "name": "Heavy Multiplication X",
+     "keywords": "heavy multiplication x"
+    },
+    {
+     "char": "♻️",
+     "name": "Black Universal Recycling Symbol",
+     "keywords": "black universal recycling"
+    },
+    {
+     "char": "♼️",
+     "name": "Recycled Paper Symbol",
+     "keywords": "recycled paper"
+    },
+    {
+     "char": "♽️",
+     "name": "Partially-Recycled Paper Symbol",
+     "keywords": "partially recycled paper"
+    },
+    {
+     "char": "♾️",
+     "name": "Permanent Paper Sign",
+     "keywords": "permanent paper"
+    },
+    {
+     "char": "♿️",
+     "name": "Wheelchair Symbol",
+     "keywords": "wheelchair"
+    },
+    {
+     "char": "⚠️",
+     "name": "Warning Sign",
+     "keywords": "warning"
+    },
+    {
+     "char": "⚡️",
+     "name": "High Voltage Sign",
+     "keywords": "high voltage"
+    },
+    {
+     "char": "⭐️",
+     "name": "White Medium Star",
+     "keywords": "white medium star"
+    }
+   ]
+  },
+  {
+   "name": "Flags",
+   "emoji": [
+    {
+     "char": "🇺🇸",
+     "name": "United States",
+     "keywords": "united states flag us"
+    },
+    {
+     "char": "🇬🇧",
+     "name": "United Kingdom",
+     "keywords": "united kingdom flag gb"
+    },
+    {
+     "char": "🇨🇦",
+     "name": "Canada",
+     "keywords": "canada flag ca"
+    },
+    {
+     "char": "🇦🇺",
+     "name": "Australia",
+     "keywords": "australia flag au"
+    },
+    {
+     "char": "🇩🇪",
+     "name": "Germany",
+     "keywords": "germany flag de"
+    },
+    {
+     "char": "🇫🇷",
+     "name": "France",
+     "keywords": "france flag fr"
+    },
+    {
+     "char": "🇪🇸",
+     "name": "Spain",
+     "keywords": "spain flag es"
+    },
+    {
+     "char": "🇮🇹",
+     "name": "Italy",
+     "keywords": "italy flag it"
+    },
+    {
+     "char": "🇵🇹",
+     "name": "Portugal",
+     "keywords": "portugal flag pt"
+    },
+    {
+     "char": "🇳🇱",
+     "name": "Netherlands",
+     "keywords": "netherlands flag nl"
+    },
+    {
+     "char": "🇸🇪",
+     "name": "Sweden",
+     "keywords": "sweden flag se"
+    },
+    {
+     "char": "🇳🇴",
+     "name": "Norway",
+     "keywords": "norway flag no"
+    },
+    {
+     "char": "🇩🇰",
+     "name": "Denmark",
+     "keywords": "denmark flag dk"
+    },
+    {
+     "char": "🇫🇮",
+     "name": "Finland",
+     "keywords": "finland flag fi"
+    },
+    {
+     "char": "🇵🇱",
+     "name": "Poland",
+     "keywords": "poland flag pl"
+    },
+    {
+     "char": "🇷🇺",
+     "name": "Russia",
+     "keywords": "russia flag ru"
+    },
+    {
+     "char": "🇺🇦",
+     "name": "Ukraine",
+     "keywords": "ukraine flag ua"
+    },
+    {
+     "char": "🇹🇷",
+     "name": "Turkey",
+     "keywords": "turkey flag tr"
+    },
+    {
+     "char": "🇮🇳",
+     "name": "India",
+     "keywords": "india flag in"
+    },
+    {
+     "char": "🇧🇩",
+     "name": "Bangladesh",
+     "keywords": "bangladesh flag bd"
+    },
+    {
+     "char": "🇵🇰",
+     "name": "Pakistan",
+     "keywords": "pakistan flag pk"
+    },
+    {
+     "char": "🇨🇳",
+     "name": "China",
+     "keywords": "china flag cn"
+    },
+    {
+     "char": "🇯🇵",
+     "name": "Japan",
+     "keywords": "japan flag jp"
+    },
+    {
+     "char": "🇰🇷",
+     "name": "South Korea",
+     "keywords": "south korea flag kr"
+    },
+    {
+     "char": "🇸🇬",
+     "name": "Singapore",
+     "keywords": "singapore flag sg"
+    },
+    {
+     "char": "🇲🇾",
+     "name": "Malaysia",
+     "keywords": "malaysia flag my"
+    },
+    {
+     "char": "🇮🇩",
+     "name": "Indonesia",
+     "keywords": "indonesia flag id"
+    },
+    {
+     "char": "🇹🇭",
+     "name": "Thailand",
+     "keywords": "thailand flag th"
+    },
+    {
+     "char": "🇻🇳",
+     "name": "Vietnam",
+     "keywords": "vietnam flag vn"
+    },
+    {
+     "char": "🇵🇭",
+     "name": "Philippines",
+     "keywords": "philippines flag ph"
+    },
+    {
+     "char": "🇦🇪",
+     "name": "United Arab Emirates",
+     "keywords": "united arab emirates flag ae"
+    },
+    {
+     "char": "🇸🇦",
+     "name": "Saudi Arabia",
+     "keywords": "saudi arabia flag sa"
+    },
+    {
+     "char": "🇪🇬",
+     "name": "Egypt",
+     "keywords": "egypt flag eg"
+    },
+    {
+     "char": "🇿🇦",
+     "name": "South Africa",
+     "keywords": "south africa flag za"
+    },
+    {
+     "char": "🇳🇬",
+     "name": "Nigeria",
+     "keywords": "nigeria flag ng"
+    },
+    {
+     "char": "🇰🇪",
+     "name": "Kenya",
+     "keywords": "kenya flag ke"
+    },
+    {
+     "char": "🇧🇷",
+     "name": "Brazil",
+     "keywords": "brazil flag br"
+    },
+    {
+     "char": "🇲🇽",
+     "name": "Mexico",
+     "keywords": "mexico flag mx"
+    },
+    {
+     "char": "🇦🇷",
+     "name": "Argentina",
+     "keywords": "argentina flag ar"
+    },
+    {
+     "char": "🇨🇱",
+     "name": "Chile",
+     "keywords": "chile flag cl"
+    },
+    {
+     "char": "🇳🇿",
+     "name": "New Zealand",
+     "keywords": "new zealand flag nz"
+    },
+    {
+     "char": "🇮🇪",
+     "name": "Ireland",
+     "keywords": "ireland flag ie"
+    },
+    {
+     "char": "🇨🇭",
+     "name": "Switzerland",
+     "keywords": "switzerland flag ch"
+    },
+    {
+     "char": "🇦🇹",
+     "name": "Austria",
+     "keywords": "austria flag at"
+    },
+    {
+     "char": "🇧🇪",
+     "name": "Belgium",
+     "keywords": "belgium flag be"
+    },
+    {
+     "char": "🇬🇷",
+     "name": "Greece",
+     "keywords": "greece flag gr"
+    },
+    {
+     "char": "🇮🇱",
+     "name": "Israel",
+     "keywords": "israel flag il"
+    }
+   ]
+  }
+ ]
+}
