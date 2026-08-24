@@ -93,6 +93,10 @@ struct RootView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        // The panel's titlebar is hidden and its buttons are removed, but
+        // SwiftUI still reserves safe area for it — about 28pt of dead space
+        // above the tab strip, on a window only 500pt tall.
+        .ignoresSafeArea(.container, edges: .top)
         .background {
             ZStack {
                 Rectangle().fill(.ultraThinMaterial)

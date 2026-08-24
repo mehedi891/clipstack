@@ -18,7 +18,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         setUpHotkey()
         logStartupState()
 
-        // Temporary diagnostic: open the panel and report its real geometry.
+        // Opens the settings window at launch, so screenshots can be captured
+        // without driving the menu bar.
+        if ProcessInfo.processInfo.environment["CLIPSTACK_DEBUG_SETTINGS"] != nil {
+            settingsController.show()
+        }
+
+        // Diagnostic: open the panel and report its real geometry.
         if ProcessInfo.processInfo.environment["CLIPSTACK_DEBUG_PANEL"] != nil {
             panelController.show()
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {

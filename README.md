@@ -16,6 +16,11 @@ before. Click one, and it gets pasted right where you were typing.
 
 You need **macOS 14 or newer**.
 
+<p align="center">
+  <img src="Assets/screenshots/clipboard.png" width="340"
+       alt="The Clipstack panel showing clipboard history, with the app each item was copied from">
+</p>
+
 ---
 
 ## How to install
@@ -135,6 +140,27 @@ Press **⇧⌘V** to open the window. It has five tabs along the top.
 
 Click anything to paste it. Everything works without the internet.
 
+<table>
+<tr>
+<td align="center" width="25%">
+  <img src="Assets/screenshots/pinned.png" width="170" alt="Pinned tab"><br>
+  <sub><b>Pinned</b></sub>
+</td>
+<td align="center" width="25%">
+  <img src="Assets/screenshots/emoji.png" width="170" alt="Emoji tab"><br>
+  <sub><b>Emoji</b></sub>
+</td>
+<td align="center" width="25%">
+  <img src="Assets/screenshots/kaomoji.png" width="170" alt="Kaomoji tab"><br>
+  <sub><b>Kaomoji</b></sub>
+</td>
+<td align="center" width="25%">
+  <img src="Assets/screenshots/symbols.png" width="170" alt="Symbols tab"><br>
+  <sub><b>Symbols</b></sub>
+</td>
+</tr>
+</table>
+
 **To pin something**, hover over it in the Clipboard tab and click the pin. It
 moves to the Pinned tab and stays there for good. To unpin it, click the pin
 again — the item goes back to your normal history.
@@ -159,6 +185,8 @@ to any number from 10 to 1000 in Settings.
 ### Settings
 
 Right-click the Clipstack icon in your menu bar and click **Settings**.
+
+<img src="Assets/screenshots/settings.png" width="380" alt="Clipstack settings window">
 
 | Setting | What it does |
 |---|---|
