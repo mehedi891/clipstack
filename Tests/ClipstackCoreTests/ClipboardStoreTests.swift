@@ -6,9 +6,14 @@ import Testing
 final class FakePersistence: PersistenceProtocol {
     var stored: [ClipboardItem] = []
     var deletedImages: [String] = []
+    /// Counts writes, so a test can assert that a no-op stays a no-op.
+    var saveCount = 0
 
     func loadItems() throws -> [ClipboardItem] { stored }
-    func saveItems(_ items: [ClipboardItem]) throws { stored = items }
+    func saveItems(_ items: [ClipboardItem]) throws {
+        stored = items
+        saveCount += 1
+    }
     func saveImage(_ pngData: Data) throws -> String { "fake.png" }
     func imageURL(forFilename filename: String) -> URL { URL(fileURLWithPath: "/tmp/\(filename)") }
 
@@ -84,6 +89,33 @@ struct ClipboardStoreTests {
         #expect(store.items.contains { $0.preview == "keep me" })
         #expect(store.items.filter { !$0.pinned }.count == 2)
         #expect(store.items.count == 3)
+    }
+
+    @Test("lowering the capacity evicts, and the eviction reaches disk")
+    func loweringCapacityPersists() {
+        let fake = FakePersistence()
+        let store = ClipboardStore(capacity: 10, persistence: fake)
+        for i in 0..<10 { store.insert(item("entry \(i)", at: TimeInterval(i))) }
+
+        store.capacity = 3
+
+        #expect(store.items.count == 3)
+        // Without the write, a relaunch would restore what was just dropped.
+        #expect(fake.stored.count == 3)
+        #expect(store.items.map(\.preview) == ["entry 9", "entry 8", "entry 7"])
+    }
+
+    @Test("raising the capacity evicts nothing and writes nothing")
+    func raisingCapacityIsANoOp() {
+        let fake = FakePersistence()
+        let store = ClipboardStore(capacity: 10, persistence: fake)
+        for i in 0..<4 { store.insert(item("entry \(i)", at: TimeInterval(i))) }
+        let writes = fake.saveCount
+
+        store.capacity = 500
+
+        #expect(store.items.count == 4)
+        #expect(fake.saveCount == writes)
     }
 
     @Test("unpinning re-applies the capacity limit")

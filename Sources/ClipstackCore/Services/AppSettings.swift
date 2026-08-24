@@ -22,13 +22,26 @@ public final class AppSettings: ObservableObject {
         didSet { defaults.set(historyEnabled, forKey: Key.historyEnabled) }
     }
 
-    /// Maximum number of unpinned entries kept.
-    @Published public var capacity: Int {
-        didSet {
-            capacity = capacity.clamped(to: Self.capacityRange)
-            defaults.set(capacity, forKey: Key.capacity)
+    /// Maximum number of unpinned entries kept. Values outside
+    /// `capacityRange` are clamped.
+    ///
+    /// Backed by a private stored property because the clamp cannot live in a
+    /// `didSet`: `@Published` turns the property into a computed one, so
+    /// assigning to it from its own observer re-enters the setter and recurses
+    /// until the stack overflows. A plain stored property would not — Swift
+    /// skips the observer for in-observer assignment — which is exactly what
+    /// makes the pattern look safe when it is not.
+    public var capacity: Int {
+        get { storedCapacity }
+        set {
+            let clamped = newValue.clamped(to: Self.capacityRange)
+            guard clamped != storedCapacity else { return }
+            storedCapacity = clamped
+            defaults.set(clamped, forKey: Key.capacity)
         }
     }
+
+    @Published private var storedCapacity: Int
 
     @Published public var launchAtLogin: Bool {
         didSet { defaults.set(launchAtLogin, forKey: Key.launchAtLogin) }
@@ -55,7 +68,7 @@ public final class AppSettings: ObservableObject {
         }
 
         let stored = defaults.integer(forKey: Key.capacity)
-        self.capacity = stored == 0
+        self.storedCapacity = stored == 0
             ? Self.defaultCapacity
             : stored.clamped(to: Self.capacityRange)
     }

@@ -14,7 +14,9 @@ public final class ClipboardStore: ObservableObject {
     /// Maximum number of *unpinned* entries. Pinned entries are never counted
     /// against it and are never evicted.
     public var capacity: Int {
-        didSet { evict() }
+        // Lowering the limit drops entries, which has to reach disk too or the
+        // evicted ones reappear on the next launch.
+        didSet { if evict() { persist() } }
     }
 
     private let persistence: PersistenceProtocol?
@@ -123,8 +125,10 @@ public final class ClipboardStore: ObservableObject {
         items.sort { $0.createdAt > $1.createdAt }
     }
 
-    /// Drops the oldest unpinned entries beyond `capacity`.
-    private func evict() {
+    /// Drops the oldest unpinned entries beyond `capacity`. Returns whether
+    /// anything was removed; callers that own the write to disk check it.
+    @discardableResult
+    private func evict() -> Bool {
         var unpinnedSeen = 0
         var survivors: [ClipboardItem] = []
         var evicted: [ClipboardItem] = []
@@ -142,9 +146,10 @@ public final class ClipboardStore: ObservableObject {
             }
         }
 
-        guard !evicted.isEmpty else { return }
+        guard !evicted.isEmpty else { return false }
         evicted.forEach { persistence?.deleteImage(for: $0) }
         items = survivors
+        return true
     }
 
     private func persist() {
