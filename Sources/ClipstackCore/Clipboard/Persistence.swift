@@ -41,8 +41,30 @@ public final class SQLitePersistence: PersistenceProtocol {
     /// the buffer does not outlive the call.
     private static let transient = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
 
+    /// `~/Library/Application Support/Clipstack`, unless
+    /// `CLIPSTACK_DEBUG_STORAGE` names somewhere else.
+    ///
+    /// The override exists for the screenshot script, which points it at a
+    /// throwaway directory holding staged demo entries — otherwise every
+    /// capture for the README would expose whatever the author had really
+    /// copied that day.
     public static var defaultDirectory: URL {
-        FileManager.default
+        directory(from: ProcessInfo.processInfo.environment)
+    }
+
+    static let storageOverrideKey = "CLIPSTACK_DEBUG_STORAGE"
+
+    /// Split out from `defaultDirectory` so the override can be tested without
+    /// touching the process environment.
+    static func directory(from environment: [String: String]) -> URL {
+        if let override = environment[storageOverrideKey], !override.isEmpty {
+            return URL(
+                fileURLWithPath: (override as NSString).expandingTildeInPath,
+                isDirectory: true
+            )
+        }
+
+        return FileManager.default
             .urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
             .appendingPathComponent("Clipstack", isDirectory: true)
     }

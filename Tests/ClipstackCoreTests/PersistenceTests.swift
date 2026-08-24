@@ -165,4 +165,42 @@ struct ClearPersistenceTests {
 
         #expect(reopened.items.map(\.preview) == ["pinned"])
     }
+
+    // MARK: - Storage location
+
+    @Test("with no override, storage lands in Application Support")
+    func defaultStorageLocation() {
+        let url = SQLitePersistence.directory(from: [:])
+
+        #expect(url.lastPathComponent == "Clipstack")
+        #expect(url.path.contains("Application Support"))
+    }
+
+    @Test("CLIPSTACK_DEBUG_STORAGE moves storage, so captures use staged data")
+    func storageOverride() {
+        let url = SQLitePersistence.directory(
+            from: [SQLitePersistence.storageOverrideKey: "/tmp/clipstack-demo"]
+        )
+
+        #expect(url.path == "/tmp/clipstack-demo")
+    }
+
+    @Test("a tilde in the override is expanded")
+    func storageOverrideExpandsTilde() {
+        let url = SQLitePersistence.directory(
+            from: [SQLitePersistence.storageOverrideKey: "~/clipstack-demo"]
+        )
+
+        #expect(!url.path.hasPrefix("~"))
+        #expect(url.path.hasSuffix("/clipstack-demo"))
+    }
+
+    @Test("an empty override is ignored rather than writing to the root")
+    func emptyOverrideIsIgnored() {
+        let url = SQLitePersistence.directory(
+            from: [SQLitePersistence.storageOverrideKey: ""]
+        )
+
+        #expect(url.lastPathComponent == "Clipstack")
+    }
 }

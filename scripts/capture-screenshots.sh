@@ -1,7 +1,8 @@
 #!/bin/bash
 # Capture screenshots of Clipstack for the README.
 #
-#   ./scripts/capture-screenshots.sh
+#   ./scripts/capture-screenshots.sh                  every shot
+#   ./scripts/capture-screenshots.sh clipboard pinned  just those
 #
 # Needs Screen Recording permission for whichever app runs it (Terminal,
 # iTerm, VS Code...). macOS asks the first time. If it says
@@ -14,10 +15,16 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-APP="/Applications/Clipstack.app/Contents/MacOS/Clipstack"
+# Defaults to the installed copy; CLIPSTACK_APP can point at a fresh build so a
+# capture run does not have to replace /Applications (which, with an ad-hoc
+# signature, would cost you the Accessibility grant).
+APP="${CLIPSTACK_APP:-/Applications/Clipstack.app/Contents/MacOS/Clipstack}"
 OUT="$ROOT/Assets/screenshots"
 
-[ -x "$APP" ] || { echo "Clipstack is not installed. Run ./install.sh first." >&2; exit 1; }
+[ -x "$APP" ] || { echo "No Clipstack at $APP. Run ./install.sh first." >&2; exit 1; }
+
+# Any arguments name the shots to take; no arguments means all of them.
+ONLY="$*"
 
 mkdir -p "$OUT"
 
@@ -36,12 +43,25 @@ MSG
 fi
 rm -f "$probe"
 
+# capture <name> <env var> <value> <min window width> [open panel: yes|no]
+#
+# The panel is only opened for panel shots. Opening it alongside the settings
+# window would make the panel key, and macOS then draws the settings window's
+# switches in inactive grey.
 capture() {
-    local name="$1" env_var="$2" value="$3" min_width="$4"
+    local name="$1" env_var="$2" value="$3" min_width="$4" panel="${5:-yes}"
+
+    if [ -n "${ONLY:-}" ] && [[ " $ONLY " != *" $name "* ]]; then
+        return
+    fi
 
     pkill -x Clipstack 2>/dev/null && sleep 1 || true
     wait 2>/dev/null || true
-    env "$env_var=$value" CLIPSTACK_DEBUG_PANEL=1 "$APP" >/dev/null 2>&1 &
+    if [ "$panel" = "yes" ]; then
+        env "$env_var=$value" CLIPSTACK_DEBUG_PANEL=1 "$APP" >/dev/null 2>&1 &
+    else
+        env "$env_var=$value" "$APP" >/dev/null 2>&1 &
+    fi
 
     # Poll rather than guess: the emoji grid takes noticeably longer to lay out
     # than the lists do.
@@ -70,7 +90,7 @@ done
 
 echo "Capturing settings"
 # Settings is wider than the panel, so ask for the larger window.
-capture "settings" CLIPSTACK_DEBUG_SETTINGS 1 380
+capture "settings" CLIPSTACK_DEBUG_SETTINGS 1 380 no
 
 pkill -x Clipstack 2>/dev/null || true
 open /Applications/Clipstack.app
