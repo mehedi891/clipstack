@@ -5,7 +5,7 @@
 # a recipient experiences:
 #
 #   Developer ID + notarized  → opens with a double click, no warnings
-#   Developer ID only         → "unidentified developer", right-click → Open
+#   Developer ID only         → "unidentified developer", approve in Settings
 #   ad-hoc (the default here) → Gatekeeper blocks it; see the install notes
 #
 # To sign and notarize, set both:
@@ -58,16 +58,22 @@ FIRST LAUNCH
   first try. This is expected, and it is a signing issue, not a problem with
   the app.
 
-  1. Open your Applications folder.
-  2. Right-click (or Control-click) Clipstack and choose "Open".
-  3. Click "Open" in the dialog that appears.
-
-  If macOS says the app is damaged, remove the download quarantine flag from
-  Terminal and try again:
-
-      xattr -dr com.apple.quarantine /Applications/Clipstack.app
+  1. Open your Applications folder and double-click Clipstack.
+  2. A box says Apple could not verify it. Click "Done". This is expected.
+  3. Open System Settings > Privacy & Security.
+  4. Scroll to the bottom. It says Clipstack was blocked. Click "Open Anyway".
+  5. Enter your password or use Touch ID.
+  6. Open Clipstack again and click "Open".
 
   You only have to do this once.
+
+  Right-clicking and choosing "Open" does NOT work on macOS 15 Sequoia or
+  newer. Apple removed that shortcut, so the steps above are the only way.
+
+  Prefer one command instead? This removes the download flag, after which
+  Clipstack opens normally:
+
+      xattr -dr com.apple.quarantine /Applications/Clipstack.app
 
 USING IT
   Clipstack lives in the menu bar; it has no Dock icon.
@@ -117,7 +123,7 @@ echo "==> Done: $DMG ($SIZE)"
 if [ "$ACCEPTED" = "yes" ] && [ -n "${NOTARY_PROFILE:-}" ]; then
     echo "    Recipients can open it with a double click."
 else
-    echo "    WARNING: not notarised. Recipients must right-click > Open the first"
-    echo "    time, and may need to clear the quarantine flag. Install notes are"
-    echo "    included in the disk image. See README.md to fix this properly."
+    echo "    WARNING: not notarised. Recipients must approve the app once in"
+    echo "    System Settings > Privacy & Security after macOS blocks it. Install"
+    echo "    notes are in the disk image. See README.md to fix this properly."
 fi

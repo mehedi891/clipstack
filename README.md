@@ -39,24 +39,39 @@ Applications. Drag the icon onto the folder.
 
 **Step 3.** Open your Applications folder and find Clipstack.
 
-**Step 4.** This part matters. **Right-click** Clipstack and pick **Open**.
-Do not double-click it the first time.
+**Step 4.** Double-click Clipstack. A box appears saying **Apple could not
+verify** it. That is expected. Click **Done**. (If the box also offers **Move to
+Trash**, do not click that — click **Done**.)
 
-**Step 5.** A box appears asking if you're sure. Click **Open**.
+**Step 5.** Open **System Settings** → **Privacy & Security**. Scroll to the
+bottom. There is a line saying Clipstack was blocked, with an **Open Anyway**
+button. Click it.
 
-That's it. You only do steps 4 and 5 once. After that you can open it normally.
+**Step 6.** Use Touch ID or type your password.
 
-> **Why the right-click?**
-> macOS blocks apps it hasn't seen before. Right-clicking and picking Open is
-> how you tell macOS you trust it. Double-clicking will just show an error.
+**Step 7.** Open Clipstack again. Click **Open**.
 
-> **It says Clipstack is "damaged"?**
-> It isn't. macOS says that about apps it doesn't recognise. Open the Terminal
-> app, paste the line below, press Return, then try again:
+That's it. You only do this once. After that it opens like any other app.
+
+> **Why all that?**
+> macOS only trusts apps checked by Apple, and that check costs the developer
+> 99 USD a year. Clipstack has not paid it yet, so macOS stops it once and asks
+> you to confirm. The steps above are how you say yes.
+
+> **Does right-clicking and picking Open work instead?**
+> Not any more. That shortcut existed until macOS 14. Apple removed it in
+> macOS 15 Sequoia, so on any recent Mac you have to use System Settings as
+> described above.
+
+> **Want one command instead?** Open the Terminal app, paste this, press
+> Return, and Clipstack will open normally afterwards:
 >
 > ```sh
 > xattr -dr com.apple.quarantine /Applications/Clipstack.app
 > ```
+>
+> This also fixes it if macOS calls the app **"damaged"**. It isn't — that is
+> what macOS says about apps it cannot check.
 
 ---
 
@@ -322,14 +337,17 @@ know. What your friend sees depends on how the app was signed:
 | How it's signed | What they have to do |
 |---|---|
 | Apple Developer ID, checked by Apple | Just double-click. Nothing else. |
-| Apple Developer ID only | Right-click → Open, once |
-| No certificate (the default here) | Right-click → Open, once. Sometimes also one Terminal command. |
+| Apple Developer ID only | Approve once in System Settings → Privacy & Security |
+| No certificate (the default here) | Approve once in System Settings → Privacy & Security, or one Terminal command |
 | They build it themselves | Nothing. It just works. |
 
-**Can a non-technical person use the default?** Yes, but not smoothly. They must
-right-click instead of double-click the first time, and if macOS calls the app
-"damaged" they need to paste one line into the Terminal. Some people will manage
-that. Others will give up, or think the app is broken.
+**Can a non-technical person use the default?** Yes, but not smoothly. macOS
+blocks the app on the first launch, and they have to go into System Settings and
+click **Open Anyway** to allow it. Some people will manage that. Others will give
+up, or think the app is broken.
+
+This got harder in macOS 15 Sequoia: before it, right-clicking the app and
+choosing Open was enough. Apple removed that, so there is no quick bypass left.
 
 Way 1 in [How to install](#how-to-install) is written for exactly this, in plain
 steps you can copy into an email.
