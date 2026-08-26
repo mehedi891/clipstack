@@ -72,10 +72,9 @@ struct PinnedTabView: View {
                 list
             }
         }
-        .onKeyPress(.upArrow) { moveSelection(by: -1) }
-        .onKeyPress(.downArrow) { moveSelection(by: 1) }
+        .onArrowKeys { key in moveSelection(by: key == .up ? -1 : 1) }
         .onAppear { selectedID = pinned.first?.id }
-        .onChange(of: query) { _, _ in selectedID = pinned.first?.id }
+        .onValueChange(of: query) { _ in selectedID = pinned.first?.id }
         // Leaving the tab abandons a pending confirmation, so returning to it
         // never presents a stale "are you sure?".
         .onDisappear { isConfirmingClear = false }
@@ -114,7 +113,7 @@ struct PinnedTabView: View {
                     .padding(.horizontal, Theme.Space.md)
                     .padding(.bottom, Theme.Space.md)
                 }
-                .onChange(of: selectedID) { _, id in
+                .onValueChange(of: selectedID) { id in
                     guard let id else { return }
                     withAnimation(Theme.quick) { proxy.scrollTo(id, anchor: .center) }
                 }
@@ -122,13 +121,15 @@ struct PinnedTabView: View {
         }
     }
 
-    private func moveSelection(by offset: Int) -> KeyPress.Result {
-        guard !pinned.isEmpty else { return .ignored }
+    /// Returns whether the key was used, so an unhandled arrow still reaches
+    /// whatever is focused.
+    private func moveSelection(by offset: Int) -> Bool {
+        guard !pinned.isEmpty else { return false }
 
         let current = pinned.firstIndex { $0.id == selectedID } ?? 0
         let next = (current + offset).clamped(to: 0...(pinned.count - 1))
         selectedID = pinned[next].id
-        return .handled
+        return true
     }
 
     private func activateSelection() {

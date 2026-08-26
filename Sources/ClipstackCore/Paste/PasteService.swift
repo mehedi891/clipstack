@@ -54,10 +54,10 @@ public enum PasteService {
         while Date() < deadline {
             if NSWorkspace.shared.frontmostApplication?.processIdentifier == app.processIdentifier {
                 // A beat more, so the app has focused its text field.
-                try? await Task.sleep(for: .milliseconds(30))
+                try? await Task.sleep(nanoseconds: 30_000_000)
                 return
             }
-            try? await Task.sleep(for: .seconds(pollInterval))
+            try? await Task.sleep(nanoseconds: UInt64(pollInterval * 1_000_000_000))
         }
     }
 

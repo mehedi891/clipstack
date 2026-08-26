@@ -57,13 +57,12 @@ struct ClipboardTabView: View {
         }
         // Arrow keys reach here from the focused search field, because key
         // presses it does not consume propagate up to ancestors.
-        .onKeyPress(.upArrow) { moveSelection(by: -1) }
-        .onKeyPress(.downArrow) { moveSelection(by: 1) }
+        .onArrowKeys { key in moveSelection(by: key == .up ? -1 : 1) }
         .onAppear {
             searchFocused = true
             selectedID = results.first?.id
         }
-        .onChange(of: query) { _, _ in
+        .onValueChange(of: query) { _ in
             // Keep the highlight on something that is actually visible.
             selectedID = results.first?.id
         }
@@ -100,7 +99,7 @@ struct ClipboardTabView: View {
                     .padding(.horizontal, Theme.Space.md)
                     .padding(.bottom, Theme.Space.md)
                 }
-                .onChange(of: selectedID) { _, id in
+                .onValueChange(of: selectedID) { id in
                     guard let id else { return }
                     withAnimation(Theme.quick) { proxy.scrollTo(id, anchor: .center) }
                 }
@@ -110,13 +109,15 @@ struct ClipboardTabView: View {
 
     // MARK: - Keyboard
 
-    private func moveSelection(by offset: Int) -> KeyPress.Result {
-        guard !results.isEmpty else { return .ignored }
+    /// Returns whether the key was used, so an unhandled arrow still reaches
+    /// whatever is focused.
+    private func moveSelection(by offset: Int) -> Bool {
+        guard !results.isEmpty else { return false }
 
         let current = results.firstIndex { $0.id == selectedID } ?? 0
         let next = (current + offset).clamped(to: 0...(results.count - 1))
         selectedID = results[next].id
-        return .handled
+        return true
     }
 
     private func activateSelection() {

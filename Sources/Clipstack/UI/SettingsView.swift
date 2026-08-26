@@ -16,7 +16,7 @@ struct SettingsView: View {
                 ))
                 .help("When off, nothing new is recorded. Existing entries are kept.")
 
-                LabeledContent("Keep") {
+                LabeledRow("Keep") {
                     HStack(spacing: 8) {
                         Stepper(
                             value: Binding(
@@ -44,7 +44,7 @@ struct SettingsView: View {
             }
 
             Section {
-                LabeledContent("Open the panel") {
+                LabeledRow("Open the panel") {
                     HStack(spacing: 8) {
                         HotkeyRecorder(combo: Binding(
                             get: { settings.hotkey },
@@ -73,7 +73,7 @@ struct SettingsView: View {
             }
 
             Section {
-                LabeledContent("Automatic paste") {
+                LabeledRow("Automatic paste") {
                     if model.accessibilityGranted {
                         Label("Working", systemImage: "checkmark.circle.fill")
                             .foregroundStyle(.green)
@@ -89,7 +89,7 @@ struct SettingsView: View {
                     }
                 }
 
-                LabeledContent("Permission stuck?") {
+                LabeledRow("Permission stuck?") {
                     Button("Reset Permission", role: .destructive) {
                         isConfirmingReset = true
                     }
@@ -122,7 +122,7 @@ struct SettingsView: View {
                 }
             }
         }
-        .formStyle(.grouped)
+        .groupedFormStyle()
         .frame(width: 400)
         .fixedSize(horizontal: false, vertical: true)
         .onAppear { model.refreshAccessibilityState() }

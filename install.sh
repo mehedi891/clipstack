@@ -32,7 +32,7 @@ die()  { printf '  \033[31m✗\033[0m %s\n' "$1" >&2; exit 1; }
 step "1/5  Checking requirements"
 
 MAJOR="$(sw_vers -productVersion | cut -d. -f1)"
-[ "$MAJOR" -ge 14 ] || die "macOS 14 or later is required (found $(sw_vers -productVersion))."
+[ "$MAJOR" -ge 12 ] || die "macOS 12 or later is required (found $(sw_vers -productVersion))."
 ok "macOS $(sw_vers -productVersion)"
 
 if ! command -v swift >/dev/null 2>&1; then

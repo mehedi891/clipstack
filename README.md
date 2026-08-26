@@ -14,7 +14,7 @@ before. Click one, and it gets pasted right where you were typing.
 - Lives in the menu bar. No Dock icon.
 - Works fully offline. Nothing you copy is ever sent anywhere.
 
-You need **macOS 14 or newer**.
+You need **macOS 12 or newer**.
 
 <p align="center">
   <img src="Assets/screenshots/clipboard.png" width="340"
@@ -419,6 +419,15 @@ Delete that folder to start fresh.
 **Project layout.** `ClipstackCore` holds the logic and is unit tested.
 `Clipstack` is a thin AppKit and SwiftUI shell on top. They are separate because
 a test target cannot depend on an executable target.
+
+**Minimum macOS is 12 (Monterey), and four APIs are shimmed to keep it there.**
+`UI/Compatibility.swift` holds arrow-key handling (`onKeyPress` is macOS 14), an
+`onChange` wrapper, `LabeledRow` and the grouped form style (both macOS 13).
+`PanelController` refuses an intrinsic content size rather than setting
+`sizingOptions`, and `LaunchAtLogin` writes a launch agent where `SMAppService`
+is missing. Newer systems still take the modern path in every case, so nothing
+about the app changes on a current Mac. Check availability before reaching for a
+new API — the compiler only catches it if the deployment target is right.
 
 **It builds on older toolchains too.** Command Line Tools 15 ships the macOS 14
 SDK, which has no `pointerStyle`, and a Swift 5.9 compiler that treats a View's

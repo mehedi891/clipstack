@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "Clipstack",
-    platforms: [.macOS(.v14)],
+    platforms: [.macOS(.v12)],
     targets: [
         // Pure logic + system services. Kept separate from the executable so it
         // can be unit tested — test targets cannot depend on executable targets

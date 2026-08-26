@@ -124,12 +124,18 @@ final class PanelController: NSObject, NSWindowDelegate {
             .environmentObject(model.settings)
             .environmentObject(model.recents)
 
-        let hosting = NSHostingView(rootView: root)
         // Without this the hosting view pushes SwiftUI's ideal size onto the
         // window: a tab whose content prefers to be tall (an empty state with a
         // long message, say) would stretch the panel past the screen edges.
         // The panel owns its size; the content adapts to it.
-        hosting.sizingOptions = []
+        //
+        // `sizingOptions` says exactly that, but only on macOS 13 and newer, so
+        // FixedSizeHostingView refuses to report an intrinsic size at all —
+        // which is the same instruction in the language every version speaks.
+        let hosting = FixedSizeHostingView(rootView: root)
+        if #available(macOS 13.0, *) {
+            hosting.sizingOptions = []
+        }
         hosting.translatesAutoresizingMaskIntoConstraints = true
         hosting.autoresizingMask = [.width, .height]
         hosting.frame = NSRect(origin: .zero, size: Self.size)
@@ -164,5 +170,15 @@ final class PanelController: NSObject, NSWindowDelegate {
         // holding the app — so leave the panel up while one is attached.
         guard panel?.attachedSheet == nil else { return }
         hide()
+    }
+}
+
+/// An `NSHostingView` that never asks the window for a particular size.
+///
+/// SwiftUI's ideal size is advice about content; the panel's size is a product
+/// decision. Reporting no intrinsic metric keeps the two from arguing.
+private final class FixedSizeHostingView<Content: View>: NSHostingView<Content> {
+    override var intrinsicContentSize: NSSize {
+        NSSize(width: NSView.noIntrinsicMetric, height: NSView.noIntrinsicMetric)
     }
 }
