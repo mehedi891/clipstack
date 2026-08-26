@@ -84,8 +84,14 @@ final class AppModel: ObservableObject {
             queue: .main
         ) { [weak self] _ in
             // The notification arrives marginally before the new state is readable.
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                MainActor.assumeIsolated { self?.refreshAccessibilityState() }
+            //
+            // `self` is re-captured and bound to a local here rather than used
+            // as `self?` inside `assumeIsolated`. Swift 5.9 rejects reading the
+            // outer closure's weak capture from a nested concurrent one, so the
+            // shorter version does not build on older Command Line Tools.
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
+                guard let model = self else { return }
+                MainActor.assumeIsolated { model.refreshAccessibilityState() }
             }
         }
     }

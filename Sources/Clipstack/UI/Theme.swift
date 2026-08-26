@@ -130,11 +130,20 @@ struct PressableStyle: ButtonStyle {
 /// the lifetime of a cursor rect, so it cannot leak.
 private struct PointingHandCursor: ViewModifier {
     func body(content: Content) -> some View {
+        // `pointerStyle` has to exist in the SDK to compile, not just at run
+        // time, and Command Line Tools older than 16 ship the macOS 14 SDK,
+        // where it does not. `#available` alone would still fail to build
+        // there, so the modifier is compiled out entirely and every version
+        // falls back to the cursor rect, which behaves the same.
+        #if compiler(>=6.0)
         if #available(macOS 15.0, *) {
             content.pointerStyle(.link)
         } else {
             content.overlay(CursorRect().allowsHitTesting(false))
         }
+        #else
+        content.overlay(CursorRect().allowsHitTesting(false))
+        #endif
     }
 }
 

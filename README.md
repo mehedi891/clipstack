@@ -420,6 +420,12 @@ Delete that folder to start fresh.
 `Clipstack` is a thin AppKit and SwiftUI shell on top. They are separate because
 a test target cannot depend on an executable target.
 
+**It builds on older toolchains too.** Command Line Tools 15 ships the macOS 14
+SDK, which has no `pointerStyle`, and a Swift 5.9 compiler that treats a View's
+helper members as nonisolated. Both are handled in the source, so a Mac that has
+not been updated in a while still builds this. If a build does fail, run
+`swift --version` and open an issue with the output.
+
 **Tests use swift-testing, not XCTest.** The Command Line Tools ship
 `Testing.framework` but no XCTest. Use `scripts/test.sh` — it passes the extra
 search paths that SwiftPM leaves out.

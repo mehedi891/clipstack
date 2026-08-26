@@ -270,7 +270,12 @@ struct ClipboardRow: View {
         return "\(Int(size.width)) × \(Int(size.height))"
     }
 
+    // Explicitly isolated because these reach `SourceApp`, which is
+    // @MainActor. Newer SwiftUI marks every member of a View as @MainActor
+    // already; the macOS 14 SDK only marks `body`, so without this the helpers
+    // count as nonisolated there and the calls fail to compile.
     @ViewBuilder
+    @MainActor
     private var leading: some View {
         if item.kind == .image, let thumbnail {
             Image(nsImage: thumbnail)
@@ -297,6 +302,7 @@ struct ClipboardRow: View {
         }
     }
 
+    @MainActor
     private var metadata: some View {
         Text(metadataText)
             .font(.system(size: 10))
@@ -306,6 +312,7 @@ struct ClipboardRow: View {
 
     /// "TextEdit · 28m ago" — source first, because it is the stronger cue when
     /// scanning for a clip you remember copying from somewhere specific.
+    @MainActor
     private var metadataText: String {
         let age = Self.timestamp.localizedString(for: item.createdAt, relativeTo: Date())
 
@@ -315,6 +322,7 @@ struct ClipboardRow: View {
         return age
     }
 
+    @MainActor
     private var accessibilityText: String {
         item.kind == .image ? "Image, \(title), \(metadataText)" : "\(item.preview), \(metadataText)"
     }
