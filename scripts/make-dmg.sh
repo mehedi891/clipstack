@@ -50,6 +50,9 @@ if [ "$ACCEPTED" = "no" ]; then
 Clipstack
 =========
 
+REQUIREMENTS
+  macOS 12 (Monterey) or newer.
+
 INSTALL
   Drag Clipstack onto the Applications folder in this window.
 
